@@ -1,0 +1,14 @@
+site_name: MOVE QUIETLY AND PLANT THINGS
+
+theme:
+  name: material
+  language: cs
+  features:
+    - navigation.indexes
+  palette:
+    primary: blue grey
+    accent: deep orange
+
+plugins:
+  - blog:
+      blog_dir: .
