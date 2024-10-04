@@ -8,6 +8,8 @@ theme:
   palette:
     primary: blue grey
     accent: deep orange
+  
+copyright: Obsah můžete využít podle potřeby. Citace a fotky s uvedením zdroje. Díky  
 
 plugins:
   - blog:
