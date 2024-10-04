@@ -11,7 +11,7 @@ V jednom ze svých deníkových zápisů jsem použil pitomé klišé. Napsal js
 
 Ale tak nějak to ze mě vypadlo v tom zápisu vypadlo, takže na tom asi něco bude. Tady bych asi připomenul, že mám už dlouhá léta svůj osobní  a notně neveřejný deník - používám na to denní poznámky v Obsidianu. Je to prostě nedílná součást mé "digitální zahrady" a dost důležitá složka mé sádhany. Dělejte to taky tak. Ale to jsem, *more*, trochu odbočil...
 
-![Obr: Stable Diffusion AI](/img/hobby-blog.png)
+![Obr: Stable Diffusion AI](../img/hobby-blog.png)
 
 ...Takže bych se asi tomu něčemu, co mě *"drží nad vodou"* prostě přihlásil. Každý zkrátka potřebujem nějaký ten "nadnášeč". Plovák. A to je to slovo. **Plovák**. Každý máme nějaký svůj plovák, který nás nadnáší, abychom se neutopili v našich osobních trablech a problémech. A že jich díky vlivům současné dost idiotské společnosti všichni máme... 
 

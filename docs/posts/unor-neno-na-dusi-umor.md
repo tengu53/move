@@ -10,7 +10,7 @@ categories:
 
 "Únor na duši je úmor", napsal jednou někde někdo super nápaditý verš. A já vám něco řeknu, není to pravda. Únor je totiž ideální plánovací období. Jó plánování, to by mi šlo...<!-- more -->
 
-![Sněženky -  makro](/img/snezenky.jpg)
+![Sněženky -  makro](../img/snezenky.jpg)
 
 Jak jsem psal o náročnější zimě na lontě, v únoru už tak nějak všechno směřuje do pozitivnějších vod. Prodlužování dnů začalo být více patrné snad už tak od půlky ledna a někdy od Hromnic už je to vidět hodně. Dny jsou delší, díky nezvykle teplému únoru nemusíme tolik topit, rostou sněženky, dá se už vyjít na zahradu i do krajiny.
 

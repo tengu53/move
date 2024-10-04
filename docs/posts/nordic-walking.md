@@ -12,7 +12,7 @@ lightbox: auto
 
 Poslední dobou moc neběhám ani nejezdím na kole. Obě pohybové aktivity jsem nahradil **Nordic Walkingem**, tedy chůzí s hůlkama. Ale ne, není to ta důchodcovská varianta chůze s oporou o hůlky (i když proti té nic). <!-- more -->Nordic walking je opravdový komplexní pohyb a **re-kreační** aktivita. Jak to myslím? Zkusím vysvětlit: 
 
-![Nejlepší je ale chodit bez batohu, aby se záda mohla hýbat](/img/nordic.jpeg)
+![Nejlepší je ale chodit bez batohu, aby se záda mohla hýbat](../img/nordic.jpeg)
 
 Mezi nordic-walkery koluje oblíbená informace, že jízda na kole zaměstná asi 40 % svalů v těle, běh 60 %, ale *správně prováděná severská chůze zapojí až 90 % svalů po celém těle*. Jde prostě o velmi komplexní aktivitu, která člověka dobře rozpohybuje. Ostatně je to poznat, protože po hodinové vycházce cítím celé tělo a vždy mě překvapí, jak mám unavené ruce. Čímž myslím takovou tu příjemnou "eustresovou" únavu. 
 

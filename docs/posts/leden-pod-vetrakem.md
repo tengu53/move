@@ -10,7 +10,7 @@ categories:
 
 Celkově letošní zimu opět zvládáme trochu líp, než tu předchozí. Ale stále je prostor, co vylepšit. Proč o tom pořád píšu? Řeknu vám drobné tajemství.<!-- more --> Opakuju to tady furt, ale asi je to pro mě **téma**. Na zimu na venkově se prostě člověk musí připravit. A tou přípravou nemyslím jen pořídit si tlustý svetr a předplatné Netflixu, nebo tak něco.
 
-![Omítky](/img/omitky.jpg)
+![Omítky](../img/omitky.jpg)
 
 Utěsňuju škvíry, kudy do domu proudí chladný vzduch. Utěsňuju trhliny ve svém zdraví, v sebevědomí a v klidu. A že je pořád na čem pracovat. **Plechovka kávy z Lidlu jako kotevní bod v chladné temnotě...** No jo, zima na lontě člověka vymáčkne na dřeň...
 

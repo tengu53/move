@@ -9,7 +9,7 @@ categories:
 
 Napadl první sníh. No a mě jako každý rok udivilo, jak mírumilovně, klidně a příjemně to působí.
 <!-- more -->
-![Zahrada v listopadu](/img/zahrada-listopad.jpg)
+![Zahrada v listopadu](../img/zahrada-listopad.jpg)
 
 První sněžení mám moc rád, hodně mě uklidňuje, vždycky mám chuť jen dlouhé minuty stát a koukat se oknem ven. A taky to dělám. Zima pro mě začne být obtížnou tak někdy po Silvestru.
 

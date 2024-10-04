@@ -14,7 +14,7 @@ Jako obvykle začnu trochu zeširoka. Na táboře (no tedy ehm v té chatě, kde
 
 V rámci nějakého úkolu si děti měly vzít míček a s jeho pomocí trefit plechovku. Nešlo jim to víc než obvykle. Neházely na nějak dlouhou vzdálenost, jejich hody přesto neměly intenzitu a byly úplně mimo. Ani stopa po nějaké eleganci či **náznaku** přesnosti... Nejsem nějaký velký fanatik na drezůru dětí, ostatně sám jsem taky nebyl super šikovné sportovní dítě, ale přesto mě překvapilo, jak děti házet neumí. Takže jsme pak házení na cíl trénovali a tu a tam trénujeme. 
 
-![Dětské nože](/img/noze_pro_deti.jpg)
+![Dětské nože](../img/noze_pro_deti.jpg)
 
 
 Ale řekl bych, že to širší trend. Děti jsou nyní neustále hlídané. Tráví život v umělém prostředí, kde něco vzít a mrsknout s tím na cíl je dost nežádoucí. V naší školce prý dokonce děti na žádost rodičů nesmí ani chodit ven, když prší. Přece neprochladnou, že jo... No a stejné je to s noži - že by jim ve školce nebo ve škole občas **dali do ruky kudlu**, to ani náhodou. Přitom naučit se smysluplně zacházet s nožem, považuju za jednu z klíčových kompetencí. Stačí se jen podívat, jak i někteří dospělí drží nůž a jak třeba krájí chleba...

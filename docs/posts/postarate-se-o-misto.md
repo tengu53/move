@@ -13,7 +13,7 @@ lightbox: auto
 
 Jo more, je to takový ten klasický měšťácký sen běžné střední třídy - rodinný dům, dvě auta, zahrada a čokl. No jako jo, všechno z toho seznamu mám. Jasně, na domě je hypotéka, a jedno auto je na leasing, ale i tak. Ale řeknu ti, že by to byla taková výhra... Všechno má svá pro a proti.<!-- more -->
 
-![Soumrak skryje nedodělky a je tu krásně](/img/dum-vecer.jpg)
+![Soumrak skryje nedodělky a je tu krásně](../img/dum-vecer.jpg)
 
 No ale když jsem se dnes vrátil z drobné cesty na kole, sedl si na dvůr, rozsvítil petrolejku (miluju petrolejové lampy, ale tom možná víc někdy jindy), pocítil jsem, že jsem tu opravdu rád a líbí se mi tady. Místo mi prostě vrátilo energetickou investici. Psal jsem tady o tomto efektu v jiném kontextu - v rámci nějaké duchovní nebo fyzické praxe - údolní nauky, jóga. Že jako něco děláte, ale to "něco" se pak začne starat také o vás. No a možná s tím místem je podobné. Staráte se o nějaké místo. Malý škaredý brownfield změníte na prostor k životu. A to místo vám to také začne vracet. Ale říkám si, že to teda trvalo.
 

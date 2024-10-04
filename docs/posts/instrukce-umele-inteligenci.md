@@ -19,13 +19,13 @@ Tady jsem začal, teda ne, začal jsem se zadáním *"morčata popíjející piv
 
 > "an enlightened hermit in the mountains watching the end of the world and contemplating transcendence, stars shining"
 
-![hermit](/img/hermit.png)
+![hermit](../img/hermit.png)
 
 ## Krajina v pozdním létě 
 
 Tady už si zadání nepamatuju, možná dohledám ve svém profilu v Midjourney. Cílem bylo zobrazit pozdně letní krajinu, stromy a hory. 
 
-![Late summer](/img/late_summer_2.png)
+![Late summer](../img/late_summer_2.png)
 
 ## Solarpunk city 
 
@@ -33,4 +33,4 @@ Tady jsem se pustil trochu do estetiky *solarpunku*. Myslel jsem, že výsledek 
 
 > "sipping tulsi tea at an outdoor seating area in a crowded café in an unnamed solarpunk town, parrots flitting around the street, street vendors offering colorful hi-tech clothing and snacks"
 
-![Solarpunk city](/img/solarpunk1.png)
+![Solarpunk city](../img/solarpunk1.png)

@@ -11,7 +11,7 @@ lightbox: auto
 ---
 Souhrou okolností jsme Silvestr oslavili doma. No oslavili... Nevím jak D., ale mě na nějaké "party hard" už příliš neužije. V podstatě mi stačí jednou ročně vánoční večírek s kolegy z práce a tím moje potřeby v této oblasti téměř končí. No jo stárnu a už mi stačí jen nudně zírat do zahrady. <!-- more -->
 
-![Větrný mlýn v krajině](/img/vetrak.png)
+![Větrný mlýn v krajině](../img/vetrak.png)
 
 Silvestra jsme původně plánovali "oslavit" u ohně v Hostišové, kde je nějaká akční a myšlenkově spřízněná komunita lidí, kteří se motají okolo ekologických staveb. Nic velkého, jen oheň, špekáčky a nějaká muzika, no alkohol a cca v 8 zpátky. 
 

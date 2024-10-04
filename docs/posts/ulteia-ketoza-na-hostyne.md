@@ -10,7 +10,7 @@ categories:
 
 Po delším čase se mi podařilo udělat si sólo výlet do Hostýnských vrchů. Ráno jsem jel autem do Hulína (10 minut) na šestou na vlak, pak vlakem do Bystřice pod Hostýnem (24 minut). Nahoře na Hostýně jsem byl 7:15. :-)  <!-- more -->
 
-![Pardus - jedna z nejhezčích vyhlídek v Česku](/img/pardus.jpg)
+![Pardus - jedna z nejhezčích vyhlídek v Česku](../img/pardus.jpg)
 
 Pak jsem šel přes nejhezčí části (Skalný, Pardus) přes Rusavu do Holešova. Celkem asi 24 km relativně kopcovitým terénem - až na Pardus jsem šel v ketóze, protože jsem od večera nic nejedl. Zkouším teď *přerušované půsty* - ideálně jsem dnes neměl jíst až do 11:30. Ale to se na pochodu nedalo, takže jsem posnídal proteinovou tyčinku. Obědval jsem až na kopci nad Holešovem proteinové těstoviny s miso omáčkou a sezamem a zajedl to svým kimčchi. Yes more, konečně,  udělal jsem si svoje první kimčchi.
 
@@ -18,7 +18,7 @@ Po cestě jsem se kochal přírodou, zpíval jsem si (třeba "Bratře Kubo", "Li
 
 No a průběžně jsem zkoušel takový základní **theravádový check-in** - uvědomování si, co v daném okamžiku prožívám, co vím a jak jednám.
 
-![Loučka před Pardusem s kvetoucími keři](/img/loučka-pred-pardusem.jpg)
+![Loučka před Pardusem s kvetoucími keři](../img/loučka-pred-pardusem.jpg)
 
 Haluz - na Rusavě jsem potkal asi 100 policistů mohutně vystrojených do různých neprůstřelných vest,  zbraní a dalších taktických nástrojů. Měli tu nejspíš nějaké soustředění, protože se právě dávali na pochod někam do kopců. Proplul jsem okolo nich v thajských zavinovacích gatích a tílku - dívali se na mě, jak na zjevení. :-) 
 

@@ -13,7 +13,7 @@ lightbox: auto
 
 ... ale v té euforii z kávy ve slunečném ránu na historickém náměstí, byť plném aut (si v Kroměříži voe..), ke mě opět přišla jedna dlouhodobá myšlenka. No může za to také včerejší debata v práci. <!-- more -->
 
-![Řeka Dyje kousek od Šobesu](/img/dyje_web.jpg)
+![Řeka Dyje kousek od Šobesu](../img/dyje_web.jpg)
 
 Hej more! Hodně se myšlenkově zabývám dobrovolnou skromností a mechanismy "chtění". Jak vzniká, že něco "chci"? Mám to hodně v souvislosti s chytrými hodinkami, které bych někdy chtěl, ale racionálně ale hlavně ani emočně mi nedávají smysl. Ale to jsem odbočil. 
 
@@ -24,7 +24,7 @@ C-s :-)
 
 Říkám tomu **poustevnický experiment**. A možná by se k tomu dalo napsat víc. Třeba jen o tom, proč ho vůbec dělat? To je docela složitá otázka. Je to asi  stejné "proč", proč musí **Martin M. Šimečka** každoročně zakotvit ve své maringotce kdesi ve slovenských horách a tam jen *být*, popíjet víno a běhat po kopcích. Píše o tom v knize *Tělesná výchova*. Je to prostě nějaká touha po transcendenci a hraničním tělesném experimentu. A zároveň psychohygiena (fuj, to je teda slovo, víckrát nepoužívat) Asi. Nejspíš...
 
-![Stromy - už nevím kde...](/img/stromy.jpg)
+![Stromy - už nevím kde...](../img/stromy.jpg)
 
 Jak to vlastně mají s touhou po nějaké transcendenci ostatní? Zabývají se tím, nebo na to serou? Asi bych se na to zeptal třeba Romana, Ondry nebo Radima. Někdo to má, někdo ne... Ale asi jo, když se dnes s někým bavím třeba o *cestě do Compostely*, je to stejně běžné, jako bychom se bavili třeba o... co já vím, něčem běžným. Dřív to bylo ne přímo nemyslitelné, ale - řekněme - podivně výstřední. Pravdou ale je, že do Compostely šly z mého okolí hlavně ženy - zajímavé...
 

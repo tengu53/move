@@ -12,7 +12,7 @@ Nový rok si vyžádal lehkou úpravu životního stylu. Zjistil jsem, že jsem 
 
 Je to prastará a poměrně ultimátní jogínská technika, která spočívá v pití slané vody a cvičení, přičemž slaná voda vámi projde a pročistí vám střeva. Podrobnosti o šankaprakšaláně nebudu moc rozepisovat, kdo chce, patřičné info najde třeba v knihách od **Lysbetha**. Každopádně jsem byl zvědavý, zda se mi technika dobře povede. Přece jen jsem ji dlouho nepraktikoval. No povedla se.
 
-![Kohoutek](/img/kohoutek.jpg)
+![Kohoutek](../img/kohoutek.jpg)
 
 Den jsem zahájil asi půlhodinovým cvičením ásán a relaxací. Po šankaprakšaláně by alespoň den neměla následovat fyzická námaha, tak jsem si všechno odcvičil před ní. A pak už to jelo – sklenice slané vody, cvičení a tohle všechno šestkrát opakovat. Pak do toho přidat toaletu a dát ještě pár dalších sklenic… Poté dva talíře uvařené bílé rýže s máslem a večer trochu luštěnin opět s rýží. Ale výsledek super. Podobně jako dřív se efekt dostavil až druhý den, kdy se cítím jako znovuzrozený. Mám větší trpělivost s dětmi, jsem méně unavený a mám mnohem menší tendenci pít kávu a pivo. A přikládám pár rad pro lepší **šankaprakšalánu**:
 

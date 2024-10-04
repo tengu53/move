@@ -11,7 +11,7 @@ Někdy v koncem minulého roku se konečně podařilo vytvořit se jakž takž e
 
 Jako pracovní stůl používám starý "myčák" otočený tím šuplíkem ke zdi. Ve stole jsou dvě plechové vaničky, které jsme ještě před pár lety používali - neměli jsme tady kuchyň ani dřez. Má to tady ještě své mouchy, asi bych mě zapracovat na osvětlení a kamna jsou moc blízko, ale to snad vychytám.
 
-![pracovní místo](/img/pracovni-misto-1.jpg)
+![pracovní místo](../img/pracovni-misto-1.jpg)
 
 Jinak loni jsem si tu dost stýskal nad těžkostmi zimního života na lontě. No a musím říct, že letos je trochu lepší. Dům už je přece jen lépe zateplený, kamna hřejí, jak mají, hodně se mi přes zimu dařilo cvičit. Začali jsme s Kapustňákem chodit na **capoeiru** a je to dobré. Úplně si vzpomínám, jak jsem před spoustou let začínal cvičit **aikidó** - prostě se snažíte něco dělat, ale vůbec vám to nejde :-). Ale od těch dob taky vím, že pokrok se prostě musí odpracovat a za rok to už bude o něčem jiném. Pokud si dobře vzpomínám, v aikidu jsem se začal "chytat" až tak po třech letech cvičení. Takže tak. 
 

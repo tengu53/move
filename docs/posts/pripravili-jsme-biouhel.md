@@ -5,14 +5,14 @@ date:
     created: 2023-10-06
 categories: 
     - zahrada
-    - experiment
+    - experimenty
 
 ---
 
 Konečně se mi podařilo realizovat jeden nápad - ze zahradního odpadu jsme s Kapustňákem připravili
 dřevěné uhlí - **biouhel**. <!-- more --> Léta nám na zahradě straší starý kotel na ohřev vody. Používal jsem ho příležitostně jako nádrž na vodu, ale vzhledem k jeho tvaru se velmi hodí k přípravě biouhlu. Biouhel sice klidně připravíte ve vykopané díře, ale lepších výsledků dosáhnete, pokud použijete nějakou kovovou nádobu alespoň přibližně kónického tvaru.
 
-![Biouhel](/img/biouhel.jpg)
+![Biouhel](../img/biouhel.jpg)
 
 
 Takže jsme si jedno odpoledne udělali ohýnek ve starém kotli. Příprava biouhlu totiž probíhá tak, že

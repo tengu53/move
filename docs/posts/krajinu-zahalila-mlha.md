@@ -8,7 +8,7 @@ categories:
 ---
 Co se týká počasí, připomínaly u nás poslední dny spíš takový mlžný Mordor. Přesto ale mlha umí překvapit.<!-- more -->
 
-![Hostýn v mlze](/img/hostyn_v_mlze.jpg)
+![Hostýn v mlze](../img/hostyn_v_mlze.jpg)
 
 Mlha, šero a vlhko, prostě nic moc. O to větší překvapení pak bylo, když jsme na vycházce vystoupali jen o pár desítek metrů výš na hřeben **Větřáku**. Sluníčko, modrá obloha a výhled na zamlžené údolí a nad mlhou vyčnívající vrcholky Hostýna... Stačilo vyjít pár metrů nahoru a počasí se radikálně změnilo. A když potom vykoukl i vzdálený Hostýn, byl to až euforizující pohled. Krajina mě tady stále dokáže udivit. A to je určitě dobře.
 

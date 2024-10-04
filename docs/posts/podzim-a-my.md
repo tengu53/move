@@ -13,7 +13,7 @@ Letošní podzim je zatím od toho letošního velice rozdílný. Zatímco loni 
 
 V zahradě se nám příliš nedařilo, vzhledem ke chladnému období v létě nedozrály rajčata ani dýně.Ty to ale snad ještě doženou, pokud bude teplé počasí ještě trochu trvat. Česnek je takový nedomrlý a cibule také. Asi budu muset letos věnovat větší úsilí přípravě půdy. V plánu je také užitkovou část zahrady rozšířit - bude místo i na brambory a další experimenty. Pokud to stihneme, chceme taky vybudovat pár **vyvýšených záhonů**, ke kterým časem vznikne kapková závlaha. Klima si o to říká a klimatickým změnám se bude muset našinec holt přizpůsobit. A k tomu závlahový systém jednoznačně patří.
 
-![Hrad Helfštýn](/img/helfstyn.jpg)
+![Hrad Helfštýn](../img/helfstyn.jpg)
 
 Ani ovocné stromy se letos moc nepředvedly. Měli jsme pár švestek - už jsou nasušené - a to je asi všechno. Ale celkově mi zahrada dělá radost, už tady vznikají útulná místa a přirozeně rostou i jednotlivé oblasti podle určení - rekreační část, užitková část, meditační část (místo,odkud je vidět do krajiny a na západy slunce) a kompostovací část, v níž je zatím neforemná hromada rostlinného odpadu. Právě tady vznikne kompostovací kadibudka, několik kompostérů a časem třeba i nějaký bioreaktor.
 

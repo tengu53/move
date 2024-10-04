@@ -20,7 +20,7 @@ No tak to byla asi nejzajímavější část z šamanského rituálu s **rapé**
 
 Rapé je jsou jemně mleté jihoamerické bylinky, které se šňupají. Hlavní složkou rapé je tabák (takže starý známý nikotin, kamaráde!), ale jsou zde i další byliny. Přesné složení rapé je většinou neznámé a jde spíš o to vědět, jak ta která směs působí. Naše rapé prý bylo přímo od nějakých indiánských kmenů z Peru či Ekvádoru. Měli jsme dvě kola, jedno slabší a druhé silnější.
 
-![kouřík](/img/smoke.jpg)
+![kouřík](../img/smoke.jpg)
 
 Rapé je spíš takový jemný entheogen, žádné psychedelikum. Mělo by navozovat euforii, ale také uzemňovat, pomáhat zastavit neodbytný tok myšlenek a umožnit **soustředit se na sebe** a svoje vnitřní prožitky. Pokud to někoho zajímá, tak rapé je legální, nejde o zakázanou drogu. Jeho užití by mělo být jakž-takž bezpečné, i když v tomto jeden nikdy neví…
 

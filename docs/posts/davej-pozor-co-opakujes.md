@@ -17,7 +17,7 @@ Z denních poznámek:
 >*Podcast Brain We Are*
 
 <!-- more -->
-![Odhoďte veškeré lpění](/img/odhodte.jpg)
+![Odhoďte veškeré lpění](../img/odhodte.jpg)
 
 Současný systém, který se pořád snaží urvat co nejvíce naší pozornosti, nám v tom příliš nepomáhá. Nutí nás věci opakovat. Dejte si pozor na věci, které opakujete. Protože, když to člověk neudělá, vkrade se mu do života spousta vzorců chování, které nakonec nechce. Koukáte ihned po probuzení do mobilního telefonu? Každou chvilku scrollujete na Twitteru nebo Facebooku v domnění, že na něco zajímavého narazíte? Tak to je přesně ono. 
 

@@ -19,7 +19,7 @@ Každopádně bych problematiku JOMO trochu rozvedl, protože myslím, že to bu
 
 **Potěšení, že u něčeho nemusíte být fyzicky** - prostě někam nejdete a k něčemu se nepřidáváte. A to dobrovolně a s pocitem ulehčení. Nejdete do hospody, kde zaplatíte tučné peníze za jídlo a pití, z něhož vám bude nejspíš špatně. Nejdete do kina na film, který za to asi nestojí. Ale nejdete ani třeba cvičit nebo běhat, když se na to necítíte.
 
-![Cestou do Holštejna](/img/cesta.jpg)
+![Cestou do Holštejna](../img/cesta.jpg)
 
 Ale není to tak, že jste líní. Prostě si jen víc ceníte času a víc autonomně se rozhodujete, do čeho dáte energii a co naopak necháte běžet. Ale hlavně je tam to “Joy”. Hodně lidem při takovém odmítnutí říkám: *“Tak si to děcka užijte”*. A myslím to fakt vážně. Mám radost, že se někdo něčím zabývá, něco řeší, někam jede a ještě větší mám radost z toho, že já to dělat nemusím.
 
