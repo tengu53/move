@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on MOVE QUIETLY AND PLANT THINGS</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on MOVE QUIETLY AND PLANT THINGS</description>
+    <generator>Hugo -- 0.154.3</generator>
+    <language>cs</language>
+    <lastBuildDate>Sun, 08 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lifespan</title>
+      <link>http://localhost:1313/categories/lifespan/</link>
+      <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/lifespan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zahrada</title>
+      <link>http://localhost:1313/categories/zahrada/</link>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/zahrada/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ultreia</title>
+      <link>http://localhost:1313/categories/ultreia/</link>
+      <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ultreia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Werkzeug</title>
+      <link>http://localhost:1313/categories/werkzeug/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/werkzeug/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>As Time Goes By</title>
+      <link>http://localhost:1313/categories/as-time-goes-by/</link>
+      <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/as-time-goes-by/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cesty</title>
+      <link>http://localhost:1313/categories/cesty/</link>
+      <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cesty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pohyb</title>
+      <link>http://localhost:1313/categories/pohyb/</link>
+      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/pohyb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Doma</title>
+      <link>http://localhost:1313/categories/doma/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/doma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Experimenty</title>
+      <link>http://localhost:1313/categories/experimenty/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/experimenty/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

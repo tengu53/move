@@ -1,0 +1,40 @@
+baseURL = 'https://your-domain.com/'
+languageCode = 'cs'
+title = 'MOVE QUIETLY AND PLANT THINGS'
+theme = 'PaperMod'
+
+[params]
+  # Vzhled a funkce
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  
+  # Dark/Light mode
+  defaultTheme = "auto" # auto, light, dark
+  
+  # Sociální ikony
+  [[params.socialIcons]]
+    
+  
+  [[params.socialIcons]]
+    
+# Menu
+[[menu.main]]
+  name = "Archiv"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  name = "Tagy"
+  url = "/tags/"
+  weight = 20
+
+[[menu.main]]
+  name = "O zahradě"
+  url = "/about/"
+  weight = 30
+
