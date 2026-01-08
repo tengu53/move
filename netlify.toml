@@ -23,8 +23,8 @@
   status = 404
 
 # Pokud chceš vlastní doménu, přidej:
-# [[redirects]]
-#   from = "https://www.tvoje-domena.cz/*"
-#   to = "https://tvoje-domena.cz/:splat"
-#   status = 301
-#   force = true
+[[redirects]]
+  from = "https://www.movequietly.eu/*"
+  to = "https://movequietly.eu/:splat"
+  status = 301
+  force = true
