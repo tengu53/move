@@ -3,7 +3,7 @@
   command = "hugo --gc --minify"
 
 [build.environment]
-  HUGO_VERSION = "0.140.2"  # Použij aktuální verzi Hugo
+  HUGO_VERSION = "0.146.1"  # Použij aktuální verzi Hugo
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
