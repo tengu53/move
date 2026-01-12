@@ -1,6 +1,6 @@
 baseURL = 'https://movequietly.eu/'
 languageCode = 'cs'
-title = 'MOVE QUIETLY AND PLANT THINGS'
+title = 'Move quietly and plant things'
 theme = 'PaperMod'
 
 [params]
