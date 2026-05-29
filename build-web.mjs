@@ -2,17 +2,22 @@ import { copyFile, mkdir, readdir, readFile, rm, stat, writeFile } from "node:fs
 import path from "node:path";
 
 const root = process.cwd();
-const contentDir = path.join(root, "content", "posts");
+const contentDir = path.join(root, "posts");
 const staticImagesDir = path.join(root, "static", "images");
-const outDir = path.join(root, "Web");
+const outDir = path.join(root, "public");
 
 const site = {
   title: "Move quietly and plant things",
   description: "Archiv textů o pohybu, zahradě, místě a pomalejším životě.",
   author: "Edgar Walden",
+  baseUrl: "https://movequietly.eu",
 };
 
 const collator = new Intl.Collator("cs", { sensitivity: "base" });
+const postAliases = new Map([
+  ["davejte-pozor-na-to-co-opakujete", "davej-pozor-co-opakujes"],
+]);
+let knownPostSlugs = new Set();
 
 function escapeHtml(value = "") {
   return String(value)
@@ -99,6 +104,16 @@ function imageSrc(src, depth = 0) {
   return relativeAsset(normalized, depth);
 }
 
+function rewriteHref(href, depth = 0) {
+  const clean = href.trim();
+  const match = clean.match(/^https?:\/\/(?:www\.)?movequietly\.eu\/posts\/([^/#?]+)\/?(?:[#?].*)?$/i);
+  if (!match) return clean;
+
+  const requestedSlug = match[1];
+  const slug = knownPostSlugs.has(requestedSlug) ? requestedSlug : postAliases.get(requestedSlug);
+  return slug ? postHref(slug, depth) : clean;
+}
+
 function inlineMarkdown(text, depth) {
   const tokens = [];
   let output = escapeHtml(text);
@@ -111,7 +126,7 @@ function inlineMarkdown(text, depth) {
 
   output = output.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label, href) => {
     const token = `@@LINK${tokens.length}@@`;
-    tokens.push(`<a href="${escapeHtml(href)}">${escapeHtml(label)}</a>`);
+    tokens.push(`<a href="${escapeHtml(rewriteHref(href, depth))}">${escapeHtml(label)}</a>`);
     return token;
   });
 
@@ -224,6 +239,18 @@ function firstImage(markdown) {
   return match ? normalizeImage(match[1]) : "";
 }
 
+function removeDuplicateCoverImage(markdown, coverImage) {
+  if (!coverImage) return markdown;
+  let removed = false;
+  return markdown.replace(/^\s*!\[[^\]]*]\(([^)]+)\)\s*$/m, (match, src) => {
+    if (!removed && normalizeImage(src) === coverImage) {
+      removed = true;
+      return "";
+    }
+    return match;
+  });
+}
+
 function pageShell({ title, description = site.description, body, depth = 0 }) {
   const home = relativeAsset("index.html", depth);
   const posts = relativeAsset("posts/index.html", depth);
@@ -237,12 +264,15 @@ function pageShell({ title, description = site.description, body, depth = 0 }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)} | ${escapeHtml(site.title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
   <link rel="stylesheet" href="${css}">
 </head>
 <body>
   <header class="site-header">
-    <a class="site-title" href="${home}">${escapeHtml(site.title)}</a>
+    <div class="brand">
+      <a class="site-title" href="${home}">${escapeHtml(site.title)}</a>
+      <p class="site-subtitle">${escapeHtml(site.description)}</p>
+    </div>
     <nav aria-label="Hlavní navigace">
       <a href="${posts}">Archiv</a>
       <a href="${categories}">Kategorie</a>
@@ -259,7 +289,11 @@ function pageShell({ title, description = site.description, body, depth = 0 }) {
 }
 
 function postUrl(post, depth = 0) {
-  return relativeAsset(`posts/${post.slug}/index.html`, depth);
+  return relativeAsset(`${post.slug}/index.html`, depth);
+}
+
+function postHref(slug, depth = 0) {
+  return relativeAsset(`${slug}/index.html`, depth);
 }
 
 function termUrl(kind, term, depth = 0) {
@@ -337,7 +371,9 @@ async function loadPosts() {
       body,
     });
   }
-  return posts.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  const sorted = posts.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  knownPostSlugs = new Set(sorted.map((post) => post.slug));
+  return sorted;
 }
 
 function groupByTerm(posts, key) {
@@ -352,12 +388,9 @@ function groupByTerm(posts, key) {
 }
 
 function renderHome(posts, categories, tags) {
-  const newest = posts.slice(0, 6);
+  const newest = posts.slice(0, 8);
+  const topTags = tags.slice(0, 24);
   return `<main>
-  <section class="intro">
-    <h1>${escapeHtml(site.title)}</h1>
-    <p>${escapeHtml(site.description)}</p>
-  </section>
   <section>
     <h2>Nejnovější texty</h2>
     <div class="post-list">
@@ -369,10 +402,11 @@ function renderHome(posts, categories, tags) {
     <h2>Kategorie</h2>
     <p>${categories.map(([term, list]) => `<a href="${termUrl("categories", term, 0)}">${escapeHtml(term)} <span>${list.length}</span></a>`).join(" ")}</p>
   </section>
-  <section class="term-cloud">
-    <h2>Tagy</h2>
-    <p>${tags.map(([term, list]) => `<a href="${termUrl("tags", term, 0)}">${escapeHtml(term)} <span>${list.length}</span></a>`).join(" ")}</p>
-  </section>
+  <details class="term-cloud">
+    <summary>Tagy</summary>
+    <p>${topTags.map(([term, list]) => `<a href="${termUrl("tags", term, 0)}">${escapeHtml(term)} <span>${list.length}</span></a>`).join(" ")}</p>
+    <p><a href="tags/index.html">Všechny tagy</a></p>
+  </details>
 </main>`;
 }
 
@@ -381,23 +415,24 @@ function renderPost(post, posts) {
   const newer = posts[index - 1];
   const older = posts[index + 1];
   const image = post.coverImage || post.firstImage;
+  const articleBody = removeDuplicateCoverImage(post.body, image);
   const body = `<main>
   <article>
     <header class="post-head">
       <p class="meta">${dateLabel(post.date)} · ${escapeHtml(post.author)}</p>
       <h1>${escapeHtml(post.title)}</h1>
-      ${post.categories.length ? `<p class="meta">Kategorie: ${renderTermLinks("categories", post.categories, 2)}</p>` : ""}
-      ${post.tags.length ? `<p class="meta">Tagy: ${renderTermLinks("tags", post.tags, 2)}</p>` : ""}
+      ${post.categories.length ? `<p class="meta">Kategorie: ${renderTermLinks("categories", post.categories, 1)}</p>` : ""}
+      ${post.tags.length ? `<p class="tag-list">${post.tags.map((tag) => `<a href="${termUrl("tags", tag, 1)}">${escapeHtml(tag)}</a>`).join("")}</p>` : ""}
     </header>
-    ${image ? `<figure class="cover"><img src="${escapeHtml(imageSrc(image, 2))}" alt="${escapeHtml(post.coverAlt || post.title)}" loading="eager">${post.coverCaption ? `<figcaption>${escapeHtml(post.coverCaption)}</figcaption>` : ""}</figure>` : ""}
-    ${markdownToHtml(post.body, 2)}
+    ${image ? `<figure class="cover"><img src="${escapeHtml(imageSrc(image, 1))}" alt="${escapeHtml(post.coverAlt || post.title)}" loading="eager">${post.coverCaption ? `<figcaption>${escapeHtml(post.coverCaption)}</figcaption>` : ""}</figure>` : ""}
+    ${markdownToHtml(articleBody, 1)}
   </article>
   <nav class="post-nav" aria-label="Navigace mezi články">
-    ${older ? `<a href="../${older.slug}/index.html">← ${escapeHtml(older.title)}</a>` : "<span></span>"}
-    ${newer ? `<a href="../${newer.slug}/index.html">${escapeHtml(newer.title)} →</a>` : "<span></span>"}
+    ${older ? `<a href="${postHref(older.slug, 1)}"><span>Starší</span>${escapeHtml(older.title)}</a>` : "<span></span>"}
+    ${newer ? `<a href="${postHref(newer.slug, 1)}"><span>Novější</span>${escapeHtml(newer.title)}</a>` : "<span></span>"}
   </nav>
 </main>`;
-  return pageShell({ title: post.title, description: post.summary, body, depth: 2 });
+  return pageShell({ title: post.title, description: post.summary, body, depth: 1 });
 }
 
 async function main() {
@@ -409,33 +444,46 @@ async function main() {
   await mkdir(outDir, { recursive: true });
   await copyImages();
 
-  await writeHtml(path.join(outDir, "styles", "site.css"), `body {
-  max-width: 850px;
+  await writeHtml(path.join(outDir, "styles", "site.css"), `:root {
+  color-scheme: light;
+}
+
+body {
+  max-width: 900px;
+  background: #fbfaf6;
+  color: #202124;
 }
 
 .site-header {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
   border-bottom: 1px solid color-mix(in srgb, currentColor 18%, transparent);
   padding-bottom: 1rem;
 }
 
+.brand {
+  margin-bottom: 1rem;
+}
+
 .site-title {
-  font-weight: 700;
+  display: inline-block;
+  font-weight: 400;
+  font-size: clamp(1.5rem, 4.7vw, 3.17rem);
+  line-height: .95;
   text-decoration: none;
+  color: inherit;
+}
+
+.site-subtitle {
+  max-width: 42rem;
+  margin: .75rem 0 0;
+  color: #55524b;
+  font-size: 1.1rem;
 }
 
 .site-header nav {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-}
-
-.intro {
-  margin-bottom: 3rem;
 }
 
 .post-list {
@@ -454,6 +502,7 @@ figure img {
   width: 100%;
   height: auto;
   border-radius: 6px;
+  background: #eee9df;
 }
 
 .post-card h2 {
@@ -480,6 +529,20 @@ figcaption,
   margin-bottom: 1.5rem;
 }
 
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-top: 1rem;
+}
+
+.tag-list a {
+  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-radius: 999px;
+  padding: .18rem .55rem;
+  text-decoration: none;
+}
+
 .cover {
   margin: 0 0 2rem;
 }
@@ -493,6 +556,23 @@ figcaption,
   border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent);
 }
 
+.post-nav a {
+  display: block;
+  max-width: 48%;
+}
+
+.post-nav a:last-child {
+  margin-left: auto;
+  text-align: right;
+}
+
+.post-nav span {
+  display: block;
+  color: color-mix(in srgb, currentColor 60%, transparent);
+  font-size: .85rem;
+  margin-bottom: .15rem;
+}
+
 .site-footer {
   margin-top: 4rem;
   padding-top: 1rem;
@@ -500,9 +580,17 @@ figcaption,
 }
 
 @media (max-width: 640px) {
-  .site-header,
   .post-nav {
     display: block;
+  }
+
+  .post-nav a {
+    max-width: none;
+    margin-bottom: 1rem;
+  }
+
+  .post-nav a:last-child {
+    text-align: left;
   }
 }
 `);
@@ -519,7 +607,7 @@ figcaption,
   }));
 
   for (const post of posts) {
-    await writeHtml(path.join(outDir, "posts", post.slug, "index.html"), renderPost(post, posts));
+    await writeHtml(path.join(outDir, post.slug, "index.html"), renderPost(post, posts));
   }
 
   const termIndex = (heading, groups, kind) => `<main>
@@ -558,7 +646,7 @@ figcaption,
   }
 
   const sitemap = posts
-    .map((post) => `posts/${post.slug}/index.html`)
+    .map((post) => `${post.slug}/index.html`)
     .concat(["index.html", "posts/index.html", "categories/index.html", "tags/index.html"])
     .join("\n");
   await writeFile(path.join(outDir, "sitemap.txt"), `${sitemap}\n`, "utf8");

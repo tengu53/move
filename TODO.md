@@ -1,0 +1,63 @@
+# Plan vyvoje webu
+
+Pracovni plan pro novy staticky web ve slozce `public`, generovany z Markdown souboru pres `build-web.mjs` a stylovany pomoci Water CSS.
+
+## Nejblizsi upravy
+
+- [x] Ujasnit cilovou strukturu webu: homepage, archiv, clanky, kategorie, tagy.
+- [x] Rozhodnout, jestli zustanou URL ve tvaru `posts/nazev-clanku/index.html`, nebo se zkrati na jednodussi adresy.
+- [x] Upravit hlavičku webu - jeden velký napis a podtitul
+- [x] Web bude světlý, ne tmavý
+- [x] Přejmenovat "content" na "posts". Přejmenovat "Web" na "public". 
+- [x] Doladit homepage: pocet nejnovejsich clanku, uvodni text, poradi bloku, viditelnost kategorii a tagu.
+- [x] Upravit sablonu detailu clanku: metadata, cover obrazek, tagy, navigace predchozi/dalsi.
+- [x] Zkontrolovat vsechny obrazky a odstranit duplicitni zobrazeni cover obrazku v clancich, kde je stejny obrazek i v textu.
+- [x] Projit stare odkazy v textech a prevest interni odkazy na nove staticke URL.
+- [x] Vytvořit log.md na logování změn
+- [x] vytvořit skill, kde bude popsáno chování AI agenta
+- [x] zmenšit nadpis blogu o třetinu a dát ho netučně
+- [x] možná jen informace - základní adresa webu bude https://movequietly.eu
+
+Poznamka: Zakladni adresa webu je `https://movequietly.eu`. Clanky maji mit co nejjednodussi slug primo v rootu, tedy `https://movequietly.eu/nazev-clanku/`. Archiv vsech clanku zustava na `/posts/`.
+
+## Obsah a redakcni vrstva
+
+- [ ] Doplnit perexy nebo kratke popisy u clanku, ktere nemaji `description`.
+- [ ] Sjednotit tagy s diakritikou a bez diakritiky, napriklad `Hostyn` vs. `Hostýn`.
+- [ ] Zrevidovat kategorie a zvazit, jestli jich nema byt mene a stabilnejsich.
+- [ ] Zkontrolovat preklepy a starsi formulace u importovanych clanku.
+
+## Technicke doplneni
+
+- [ ] Pridat generovani RSS feedu bez Huga.
+- [ ] Pridat `sitemap.xml` misto soucasneho jednoducheho `sitemap.txt`.
+- [ ] Pridat `robots.txt`.
+- [ ] Doplnit Open Graph a Twitter metadata pro sdileni clanku.
+- [ ] Pridat kanonicke URL podle finalni domeny.
+- [ ] Pridat jednoduchou kontrolu rozbitych odkazu jako samostatny prikaz.
+- [ ] Zajistit, aby build sel spustit jednim prikazem a jasne vypsal pocet vygenerovanych stran.
+
+## Design a UX
+
+- [ ] Doladit vlastni CSS nad Water CSS: sirka obsahu, mezery, obrazky, navigace.
+- [ ] Zlepsit mobilni zobrazeni navigace.
+- [ ] Pridat citelnejsi vypis tagu a kategorii.
+- [ ] Rozhodnout, jestli ma homepage pusobit jako blog, archiv, nebo osobni rozcestnik.
+- [ ] Zkontrolovat kontrast, velikosti obrazku a chovani dlouhych nadpisu.
+
+## Pozdejsi napady
+
+- [ ] Pridat vyhledavani na klientu.
+- [ ] Pridat stranku "Nahodne texty" nebo vyber podle temat.
+- [ ] Vygenerovat JSON index clanku pro budouci filtrovani.
+- [ ] Zmensovat obrazky pri buildu a generovat nahledy.
+- [ ] Pripravit jednoduchy deploy postup pro novy generator.
+- [ ] Zalozit README s popisem, jak web generovat a publikovat.
+
+## Hotovo
+
+- [x] Vygenerovan zakladni staticky web do `public`.
+- [x] Pouzit Water CSS pres CDN.
+- [x] Vygenerovan archiv clanku, kategorie a tagy.
+- [x] Zkopirovany obrazky do `public/images`.
+- [x] Overeny lokalni odkazy a obrazky.

@@ -1,0 +1,149 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  max-width: 900px;
+  background: #fbfaf6;
+  color: #202124;
+}
+
+.site-header {
+  margin-bottom: 3.5rem;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  padding-bottom: 1rem;
+}
+
+.brand {
+  margin-bottom: 1rem;
+}
+
+.site-title {
+  display: inline-block;
+  font-weight: 400;
+  font-size: clamp(1.5rem, 4.7vw, 3.17rem);
+  line-height: .95;
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-subtitle {
+  max-width: 42rem;
+  margin: .75rem 0 0;
+  color: #55524b;
+  font-size: 1.1rem;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.post-list {
+  display: grid;
+  gap: 2rem;
+}
+
+.post-card {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+}
+
+.post-card img,
+.cover img,
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  background: #eee9df;
+}
+
+.post-card h2 {
+  margin-bottom: .35rem;
+}
+
+.meta,
+figcaption,
+.site-footer {
+  color: color-mix(in srgb, currentColor 65%, transparent);
+  font-size: .92rem;
+}
+
+.term-cloud a {
+  display: inline-block;
+  margin: 0 .5rem .5rem 0;
+}
+
+.term-cloud span {
+  opacity: .72;
+}
+
+.post-head {
+  margin-bottom: 1.5rem;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-top: 1rem;
+}
+
+.tag-list a {
+  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-radius: 999px;
+  padding: .18rem .55rem;
+  text-decoration: none;
+}
+
+.cover {
+  margin: 0 0 2rem;
+}
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+}
+
+.post-nav a {
+  display: block;
+  max-width: 48%;
+}
+
+.post-nav a:last-child {
+  margin-left: auto;
+  text-align: right;
+}
+
+.post-nav span {
+  display: block;
+  color: color-mix(in srgb, currentColor 60%, transparent);
+  font-size: .85rem;
+  margin-bottom: .15rem;
+}
+
+.site-footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+}
+
+@media (max-width: 640px) {
+  .post-nav {
+    display: block;
+  }
+
+  .post-nav a {
+    max-width: none;
+    margin-bottom: 1rem;
+  }
+
+  .post-nav a:last-child {
+    text-align: left;
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Move Web Agent"
+  short_description: "Prace na statickem blogu Move quietly."
+  default_prompt: "Pracuj na statickem webu podle projektovych pravidel."
