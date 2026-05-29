@@ -1,0 +1,96 @@
+body {
+  max-width: 850px;
+}
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  padding-bottom: 1rem;
+}
+
+.site-title {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.intro {
+  margin-bottom: 3rem;
+}
+
+.post-list {
+  display: grid;
+  gap: 2rem;
+}
+
+.post-card {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+}
+
+.post-card img,
+.cover img,
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.post-card h2 {
+  margin-bottom: .35rem;
+}
+
+.meta,
+figcaption,
+.site-footer {
+  color: color-mix(in srgb, currentColor 65%, transparent);
+  font-size: .92rem;
+}
+
+.term-cloud a {
+  display: inline-block;
+  margin: 0 .5rem .5rem 0;
+}
+
+.term-cloud span {
+  opacity: .72;
+}
+
+.post-head {
+  margin-bottom: 1.5rem;
+}
+
+.cover {
+  margin: 0 0 2rem;
+}
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+}
+
+.site-footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+}
+
+@media (max-width: 640px) {
+  .site-header,
+  .post-nav {
+    display: block;
+  }
+}
