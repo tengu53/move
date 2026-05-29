@@ -2,6 +2,9 @@
 title: "Neběhám, ale chodím s hůlkama. Choďte taky"
 author: "Edgar Walden"
 date: 2024-06-04
+tags: ["pohyb", "nordic walking", "chůze", "rekreace"]
+categories: ["pohyb"]
+description: "Proč nordic walking funguje jako komplexní rekreační pohyb"
 cover:
     image: "images/nordic.jpeg"
     alt: "Nordic walking"
@@ -16,4 +19,4 @@ Co je ale důležitější, pokud jdete s hůlkama správně, nehrbíte se. Ba p
 
 Ale zpět k té chůzi. Jsme obvykle zavření, nahrbení a stažení. A je to prostě tím, že často trávíme život tak, že se hrbíme u počítače nebo mobilu - hrudník se nám spíš stahuje. A my se pak stahujeme i v hlavě - ať už ve své vstřícnosti k ostatním nebo k rigidním myšlenkovým vzorcům. Energie neproudí. A tam, kde neproudí energie, není pohyb a není život. 
 
-U počítače sedíme fakt hodně, takže nakonec ... znáte to, když něco [hodně opakujete](https://movequietly.eu/posts/davejte-pozor-na-to-co-opakujete/), tělo se pak přizpůsobí. A to jak v dobrém, tak i v tom špatném.  A právě na to nordic walking hodně funguje - otevírá nás a pomáhá s naším znovu-stvořením - **re-kreací**. Proto je severská chůze jednou z nejlepších **re-kreačních** aktivit, jaké máme. Jak fakt, voe...
+U počítače sedíme fakt hodně, takže nakonec ... znáte to, když něco [hodně opakujete](https://movequietly.eu/posts/davejte-pozor-na-to-co-opakujete/), tělo se pak přizpůsobí. A to jak v dobrém, tak i v tom špatném. A právě na to nordic walking hodně funguje - otevírá nás a pomáhá s naším znovu-stvořením - **re-kreací**. Proto je severská chůze jednou z nejlepších **re-kreačních** aktivit, jaké máme. Jak fakt, voe...

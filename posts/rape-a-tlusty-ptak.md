@@ -9,7 +9,7 @@ description: "Zkušenosti a reflexe šamanského ceremoniálu s rapé"
 warning: "Tento článek popisuje zkušenost s psychoaktivní látkou"
 ---
 
-Jaký byl **rapé ceremoniál**. No nic jednoznačného. Tento post jsem napsal bezprostředně po zkušenostech s ceremoniálem s rapé. Ze zpětného pohledu to bylo daleko složitější a  v dojmu z akce docela převládly negativní pocity, takže jsem to pak nepublikoval.<!-- more -->  Prostě jsem podcenil tu část, která se označuje jako set. No ale jako ilustraci toho, co můžete od této nyní docela módní záležitostí čekat, to teď s časovým odstupem zpřístupňuju čtenářstvu. Už ve mě nejspíš převládla určitá smířlivost s tím, co se mi pod vlivem této drogy dělo.  Každopádně… byl jsem z toho všeho víc rozhozenej, než je z textu patrné. Tak bacha…_
+Jaký byl **rapé ceremoniál**. No nic jednoznačného. Tento post jsem napsal bezprostředně po zkušenostech s ceremoniálem s rapé. Ze zpětného pohledu to bylo daleko složitější a v dojmu z akce docela převládly negativní pocity, takže jsem to pak nepublikoval.<!-- more --> Prostě jsem podcenil tu část, která se označuje jako set. No ale jako ilustraci toho, co můžete od této nyní docela módní záležitostí čekat, to teď s časovým odstupem zpřístupňuju čtenářstvu. Už ve mě nejspíš převládla určitá smířlivost s tím, co se mi pod vlivem této drogy dělo. Každopádně… byl jsem z toho všeho víc rozhozenej, než je z textu patrné. Tak bacha…
 
 Najednou se přede mnou objevil ten **tlustý černý pták**. No vlastně ani nevím, jestli je to pták. Prostě takový tlustý tvor s ptačí hlavou. Už jsme se kdysi dávno potkali a tehdy mi řekl, že mi dá válečné jméno, ale že si ho musím vybojovat. Mečem – katanou, vybojoval jsem, mám ho. Od té doby jsme se neviděli…
 
@@ -19,7 +19,7 @@ No tak to byla asi nejzajímavější část z šamanského rituálu s **rapé**
 
 ## Co je to rapé?
 
-Rapé je jsou jemně mleté jihoamerické bylinky, které se šňupají. Hlavní složkou rapé je tabák (takže starý známý nikotin, kamaráde!), ale jsou zde i další byliny. Přesné složení rapé je většinou neznámé a jde spíš o to vědět, jak ta která směs působí. Naše rapé prý bylo přímo od nějakých indiánských kmenů z Peru či Ekvádoru. Měli jsme dvě kola, jedno slabší a druhé silnější.
+Rapé jsou jemně mleté jihoamerické bylinky, které se šňupají. Hlavní složkou rapé je tabák (takže starý známý nikotin, kamaráde!), ale jsou zde i další byliny. Přesné složení rapé je většinou neznámé a jde spíš o to vědět, jak ta která směs působí. Naše rapé prý bylo přímo od nějakých indiánských kmenů z Peru či Ekvádoru. Měli jsme dvě kola, jedno slabší a druhé silnější.
 
 ![kouřík](/images/smoke.jpg)
 
@@ -31,7 +31,7 @@ Jak už bylo řečeno, rapé se šňupe. Používají se k tomu trubičky z bamb
 
 Takže jsme s D. přišli na místo – klasický dobrý setting pro tyhle experimenty (tlumené světlo, svíčky, hang drum, šamanský buben, tibetská mísa, činelky, čaj, teplý mošt atd.). A po úvodní instruktáži jsme šli na to. Průvodce obešel kruh a každému do obou nosních dírek fouknul dávku rapé. Teda na začátek je to síla. Je to ostrý kopanec do dutin. Slzy, mravenčení v zádech, pocit tepla, pocit možnosti extrémní koncentrace na cokoli, ostře přítomný okamžik. Musíte to dobře prodýchat, fyzické a psychické projevy vám přitom splývají v jedno. Pokud to neprodýcháte, nejspíš se pozvracíte (je to prý běžné a není to chyba). Nejintenzivnější prožitek trvá tak 10 minut a pak odeznívá v lepší schopnosti vnímat a koncentrovat se.
 
-No pak jsme i lehli na zem a během řízené meditace se mi odehrál ten rozhovor z úvodu. Pak šamanský zpěv a další kolo už bez mediace, jen s hudbou.
+No pak jsme i lehli na zem a během řízené meditace se mi odehrál ten rozhovor z úvodu. Pak šamanský zpěv a další kolo už bez meditace, jen s hudbou.
 
 ## Další osobní poznatky z ceremoniálu s rapé
 

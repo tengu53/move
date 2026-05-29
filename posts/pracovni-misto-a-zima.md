@@ -4,7 +4,7 @@ date: 2023-02-23
 draft: false
 author: "Edgar Walden"
 tags: ["home office", "zima", "capoeira", "qi-gong"]
-categories: ["werkzeug"]
+categories: ["doma"]
 description: "O vytvoření pracovního místa a o tom, jak lépe zvládat zimu na venkově"
 cover:
     image: "images/pracovni-misto-1.jpg"

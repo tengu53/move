@@ -21,6 +21,6 @@ Jasný, restaurace, kultura, stav veřejného prostoru nebo nálada jsou v Krom�
 
 Když se ale vydáte do roviny, estetika krajiny se samozřejmě posune. A ne vždy k lepšímu. Procházka okolo Hulína protáhla tělo, ale mysl v kopcích zůstala. *Postindustriální lada* chce prostě určité rozpoložení a hledat krásu v pískovně, na to teď moc nemám síly. Podzim je u mě takové akumulační období. Víc odpočívám, sbírám síly, trénuju ledviny, dělám spirálovité pohyby, přitahuju se na kruzích, skřehotám listopadový písně a vůbec různě podporuju proudění energie. A potřebuju krásu okolí. 
 
-V létě je mi to fuk, to bych si klidně udělal výlet třeba někam do výsypky hnědouhelného dolu. A hledal tady krásu v *přírodní sukcesi*.  Ale na podzim potřebuju pěknou kulturní krajinu a spokojenou černozem. Takže tak, no. 
+V létě je mi to fuk, to bych si klidně udělal výlet třeba někam do výsypky hnědouhelného dolu. A hledal tady krásu v *přírodní sukcesi*. Ale na podzim potřebuju pěknou kulturní krajinu a spokojenou černozem. Takže tak, no. 
 
 Ale abych tady nehaněl hanáckou rovinu, lesy a louky třeba okolo Kojetína a Chropyně jsou nádherné. Ale Hulín... no nevím...

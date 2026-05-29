@@ -30,7 +30,7 @@ No a teď mě nějak chytly **houby**. Takže zkusím nasadit hlívu ústřično
 
 Tady mám pořád ještě rezervy. Jedna kvašená zelenina se nám povedla, ale druhá už ne. Teď se nám ale povedl kefír z tibetské houby - má velmi příjemnou chuť. Do podzimu budu proto spíš sbírat zkušenosti - na podzim bych pak chtěl nakysat hodně zelí na zimu a taky konečně to kimčchi. S chlebovým kvasem už mi to jde a upéct chleba už je pro mě rutina. Po nějaké době experimentů (nori vločky, česnek, ovesné vločky, medvědí česnek, mák atd.) jsem se vrátil k jednoduchým chlebům z žitné a špaldové mouky. Myslím, že je na čase začít dělat i nějaké další druhy, než jen moji obligátní "Moskvu".
 
-## Na a zelenina
+## No a zelenina
 
 Tady už jen výčet:
 
@@ -38,7 +38,7 @@ Tady už jen výčet:
 - **Rajčata** - jasně, klasika
 - **Hrášek** - letos zkusím na větší rozloze
 - **Křen** - letošní velká výzva, nevím, jestli na něj máme vhodnou půdu
-- **Česnek** - už je v zemi, ale objevil jsem i několik rostlin z druhé generace. Asi se mi ěnco loni vysemenilo  - uvidíme, co z toho bude...
+- **Česnek** - už je v zemi, ale objevil jsem i několik rostlin z druhé generace. Asi se mi něco loni vysemenilo - uvidíme, co z toho bude...
 - **Fazole** - na pár míst je dám
 - **Mrkev, petržel** - loni mi nevzešly, uvidíme, co letos
 - **Cibule** - rád bych, snad vzejde...

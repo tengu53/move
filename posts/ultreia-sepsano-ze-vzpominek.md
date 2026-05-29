@@ -21,7 +21,7 @@ Jde o takový osobní experiment - pro mě samozřejmě nedosažitelný. V podst
 
 Bylo by to radikální omezení jakéhokoli chtění věcí zvenčí. A myslím, že s cvičením a meditacemi bych to bez problémů dokázal. A to je na tom nejzajímavější. Obvykle o sobě ve všem dost pochybuju, ale v tomto ne. A proč to všechno? C-x C-s :-)
 
-Říkám tomu **poustevnický experiment**. A možná by se k tomu dalo napsat víc. Třeba jen o tom, proč ho vůbec dělat? To je docela složitá otázka. Je to asi  stejné "proč", proč musí **Martin M. Šimečka** každoročně zakotvit ve své maringotce kdesi ve slovenských horách a tam jen *být*, popíjet víno a běhat po kopcích. Píše o tom v knize *Tělesná výchova*. Je to prostě nějaká touha po transcendenci a hraničním tělesném experimentu. A zároveň psychohygiena (fuj, to je teda slovo, víckrát nepoužívat) Asi. Nejspíš...
+Říkám tomu **poustevnický experiment**. A možná by se k tomu dalo napsat víc. Třeba jen o tom, proč ho vůbec dělat? To je docela složitá otázka. Je to asi stejné "proč", proč musí **Martin M. Šimečka** každoročně zakotvit ve své maringotce kdesi ve slovenských horách a tam jen *být*, popíjet víno a běhat po kopcích. Píše o tom v knize *Tělesná výchova*. Je to prostě nějaká touha po transcendenci a hraničním tělesném experimentu. A zároveň psychohygiena (fuj, to je teda slovo, víckrát nepoužívat) Asi. Nejspíš...
 
 ![Stromy - už nevím kde...](/images/stromy.jpg)
 
@@ -29,6 +29,6 @@ Jak to vlastně mají s touhou po nějaké transcendenci ostatní? Zabývají se
 
 Jo, spíš *hraniční tělesný experiment*. Tak by se to dalo obecněji označit. Jít krajinou a pak padnout vyčerpáním, sledovat vize, pak si dát powergel nebo možná hrst pražených ovesných vloček a usnout. Druhý den zas... A třetí, čtvrtý, pátý... Takhle putovat. Vrátit se o deset kilo lehčí, s extatickým pohledem a plným deníčkem úvah. 
 
-Pak tři dny spát a integrovat to... poznámky (a poznatky) zpracovat. K devadesáti procentům poznámek se nehlásit, bude to asi dost shit,  ale *těch deset procent by asi stálo za to*. Tipuju... Možná by to ani nebyly konzistentní úvahy, ale básně, extatická haiku... Teda zcela určitě by to nebyly konzistentní úvahy, ale něco víc meta. Asi. Nejspíš...
+Pak tři dny spát a integrovat to... poznámky (a poznatky) zpracovat. K devadesáti procentům poznámek se nehlásit, bude to asi dost shit, ale *těch deset procent by asi stálo za to*. Tipuju... Možná by to ani nebyly konzistentní úvahy, ale básně, extatická haiku... Teda zcela určitě by to nebyly konzistentní úvahy, ale něco víc meta. Asi. Nejspíš...
 
 No jo, *hlídám si své šílenství v rozumných mezích...* A občas koukám, co všechno mně myšlenky přinesou...

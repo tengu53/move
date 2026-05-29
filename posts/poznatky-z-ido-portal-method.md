@@ -3,7 +3,7 @@ title: "Poznatky z lekce Ido Portal Method"
 date: 2022-04-14
 draft: false
 author: "Edgar Walden"
-tags: ["pohyb", "Ido Portal", "movement culture", "cvičení"]
+tags: ["pohyb", "ido portal", "movement culture", "cvičení"]
 categories: ["pohyb"]
 description: "Zkušenosti a poznatky z otevřené lekce Ido Portal Method ve Zlíně"
 ---
@@ -14,7 +14,7 @@ Movement culture tu více tu méně obdivuju už poměrně dlouho. Pokud nevíte
 
 Jeho koncepce zahrnuje spoustu věcí - silové cviky s vlastní vahou, lokomoce, prvky z jógy (hodně integruje Shadow Yogu Sandora Remete), moderního tance a bůhví čeho ještě. Výsledkem je systém pohybových technik, který vede k jakémusi univerzálnímu rozvoji pohybových schopností. No a na jednu otevřenou lekci **Ido Portal Method** ve Zlíně se mi podařilo zajet. A výsledek? Spousta inspirace a podnětů k pohybu i přemýšlení.
 
-Při přihlašování na otevřenou lekci jsem udělal jednu chybu - lekce byly v jeden den dvě s různými učiteli. Myslel, že jsou stejné, ale nebyly a kdybych to byl věděl, navštívil bych obě. Takto jsem byl jen na jedné - odpolední. Poučení pro příště. Lekce měla nějaké dvě a půl nebo tři hodiny - uteklo to jako voda, klidně bych cvičil ještě dál.
+Při přihlašování na otevřenou lekci jsem udělal jednu chybu - lekce byly v jeden den dvě s různými učiteli. Myslel jsem, že jsou stejné, ale nebyly a kdybych to byl věděl, navštívil bych obě. Takto jsem byl jen na jedné - odpolední. Poučení pro příště. Lekce měla nějaké dvě a půl nebo tři hodiny - uteklo to jako voda, klidně bych cvičil ještě dál.
 
 ## Hra, euforie, bolavé kosti
 
@@ -26,11 +26,11 @@ A jak to na mě celé působilo? O drsném cvičení na Movement Campech se vedo
 
 ### A poznatky:
 
-- Hodně dávají důraz na komunitu - cvičení s lidma. Ideálem je jedna komunita, se kterou cvičíte dlouhodobě a vzájemně si pomáháte ke zlepšení. Tedy opět něco, co pamatuju s tréningů Aikida. Jsou to znalosti, které se musí vstřebávat osobně. *"To, co tady učíme, se nedá naučit z videí na Youtube"*, říkal na lekci hlavní učitel Petr Růžička.
+- Hodně dávají důraz na komunitu - cvičení s lidma. Ideálem je jedna komunita, se kterou cvičíte dlouhodobě a vzájemně si pomáháte ke zlepšení. Tedy opět něco, co pamatuju z tréninků Aikida. Jsou to znalosti, které se musí vstřebávat osobně. *"To, co tady učíme, se nedá naučit z videí na YouTube"*, říkal na lekci hlavní učitel Petr Růžička.
 
 - Zároveň ale zaznělo: *"Sledujte, jak se někdo šikovný hýbe, odkoukejte to a zkuste to napodobovat."* **Zkoumejte pohyb** - to je asi jedna z hlavních věcí, kterou jsem si odnesl. Vlastní výzkum a vlastní pohybová "tvorba".
 
-- Učitel pohybu praxi nevysvětluje, ale "jen" žáka vede k tomu, aby všechno našel sám. Je to pomalejší, ale daleko hodnotnější poznání. Takže jsme hodně experimentovali sami. Opět je to něco podobného, jako u tréningů bojových umění. 
+- Učitel pohybu praxi nevysvětluje, ale "jen" žáka vede k tomu, aby všechno našel sám. Je to pomalejší, ale daleko hodnotnější poznání. Takže jsme hodně experimentovali sami. Opět je to něco podobného jako u tréninků bojových umění. 
 
 - Hry s tenisovými míčky, prosté házení, ale také práce s rytmem a flow. Super.
 

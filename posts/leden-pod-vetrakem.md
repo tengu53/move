@@ -2,6 +2,9 @@
 title: "Leden pod Větřákem - co se povedlo a poznatky pro příští zimu"
 author: "Edgar Walden"
 date: 2022-01-25
+tags: ["zima", "venkov", "dům", "příprava na zimu"]
+categories: ["doma"]
+description: "Lednové poznatky ze života na venkově a přípravy na další zimu"
 ---
 
 Celkově letošní zimu opět zvládáme trochu líp, než tu předchozí. Ale stále je prostor, co vylepšit. Proč o tom pořád píšu? Řeknu vám drobné tajemství.<!-- more --> Opakuju to tady furt, ale asi je to pro mě **téma**. Na zimu na venkově se prostě člověk musí připravit. A tou přípravou nemyslím jen pořídit si tlustý svetr a předplatné Netflixu, nebo tak něco.
@@ -16,7 +19,7 @@ Zatímco v paneláku v Brně žijete v pěkném a pohodlném bezčasí, na venko
 
 ## Topení je základ
 
-No jo, tohle jsem v rámci loňska trochu podcenil. Letos kvůli vysokým cenám elektřiny topíme víc dřevem, spotřebujeme zhruba 5 m3 dřeva za topnou sezónu. Dřevo koupit na jaře, ale raději tak dva kubíky navíc. Třeba aby bylo čím vytopit indiánskou saunu. Začátkem léta nařezat a nasekat. Přes léto nechat vyschnout - dva roky jsou ideální, ale i jedno léto IMHO stačí. A co je nejdůležitější. Během léta si prostě občas uvědomit, že *"winter is comming"* a nedpocenit přípravu. Hodí se také záložní dřevěné brikety - topí fakt dobře a pokud uvěříme výrobcům, že nahradí dřevo o pětinásobku svého objemu, tak nevychází zas tak draho, jak by se mohlo na první pohled zdát.
+No jo, tohle jsem v rámci loňska trochu podcenil. Letos kvůli vysokým cenám elektřiny topíme víc dřevem, spotřebujeme zhruba 5 m3 dřeva za topnou sezónu. Dřevo koupit na jaře, ale raději tak dva kubíky navíc. Třeba aby bylo čím vytopit indiánskou saunu. Začátkem léta nařezat a nasekat. Přes léto nechat vyschnout - dva roky jsou ideální, ale i jedno léto IMHO stačí. A co je nejdůležitější. Během léta si prostě občas uvědomit, že *"winter is coming"* a nepodcenit přípravu. Hodí se také záložní dřevěné brikety - topí fakt dobře a pokud uvěříme výrobcům, že nahradí dřevo o pětinásobku svého objemu, tak nevychází zas tak draho, jak by se mohlo na první pohled zdát.
 
 ## Naložená zelenina
 
@@ -26,7 +29,7 @@ Jablka jsme průběžně sušili -- gut. Ale rád bych i víc zeleniny naložil.
 
 ## Přizpůsobit prostor
 
-Jasně, takový ten designový domácí minimalismus může být docela cool, ale v podmínkách zimního venkovského mordoru moc nepomáhá. Je mnohem lepší se zaměřit na pohodlí, v takové - řekněme - přízemnější formě. *"Domácí útulnost je blaženě psychotická,"* píše [Venkatesh Rao](https://www.ribbonfarm.com/series/domestic-cozy/).) Nevím přesně, jak to myslel, a zrovna psychózy bych si z dobrých důvodů do huby moc nebral. Ale něco na tom bude. Protože **domácí pohodlí**, to je to, oč tu v zimní tmě běží. Kafe a čaje, teplo, měkká deka na pohovce a vařit si dobré jídlo. Občas jsem se přistihl, že mě ve slabých chvilkách dojímá i **kýčovitá plechovka kávy z Lidlu**. Creepy, vím, ale zima v bahně dělá svoje. A najít si smysluplné vnitřní aktivity - jóga, chi-kung, tajči, hra na hudební nástroje, programování, bastlení, broušení nožů... Možnosti tu jsou... 
+Jasně, takový ten designový domácí minimalismus může být docela cool, ale v podmínkách zimního venkovského mordoru moc nepomáhá. Je mnohem lepší se zaměřit na pohodlí, v takové - řekněme - přízemnější formě. *"Domácí útulnost je blaženě psychotická,"* píše [Venkatesh Rao](https://www.ribbonfarm.com/series/domestic-cozy/). Nevím přesně, jak to myslel, a zrovna psychózy bych si z dobrých důvodů do huby moc nebral. Ale něco na tom bude. Protože **domácí pohodlí**, to je to, oč tu v zimní tmě běží. Kafe a čaje, teplo, měkká deka na pohovce a vařit si dobré jídlo. Občas jsem se přistihl, že mě ve slabých chvilkách dojímá i **kýčovitá plechovka kávy z Lidlu**. Creepy, vím, ale zima v bahně dělá svoje. A najít si smysluplné vnitřní aktivity - jóga, chi-kung, tajči, hra na hudební nástroje, programování, bastlení, broušení nožů... Možnosti tu jsou... 
 
 ## No a co se v lednu povedlo?
 

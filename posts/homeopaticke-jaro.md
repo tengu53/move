@@ -2,7 +2,9 @@
 title: "Homeopatické jaro"
 author: "Edgar Walden"
 date: 2025-01-30
-
+tags: ["jaro", "krajina", "Větřák", "turistika"]
+categories: ["cesty"]
+description: "Krátká potulka po hřebeni Větřáku v počasí homeopatického jara"
 ---
 Dnes jsem na své oblíbené potulkové trase objevil žluté čtverečky.<!-- more --> Na jednu stranu nemám turistické značky moc rád, protože si myslím, že je jich v krajině často příliš, a přírodnímu toulání pak ubírají na překvapivosti. Je to prostě jeden z dalších otravných systémů, kterými se snažíme o jakousi jistotu a iluzorní bezpečí na cestě. I když smrt hladem, žízní a vyčerpáním nám v české krajině nehrozí.
 

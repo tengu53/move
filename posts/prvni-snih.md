@@ -4,7 +4,7 @@ date: 2022-11-18
 draft: false
 author: "Edgar Walden"
 tags: ["sníh", "zima", "zahrada"]
-categories: ["as time goes by"]
+categories: ["zahrada"]
 description: "První sněžení a jeho uklidňující efekt"
 ---
 

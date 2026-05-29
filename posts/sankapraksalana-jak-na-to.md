@@ -20,7 +20,7 @@ Den jsem zahájil asi půlhodinovým cvičením ásán a relaxací. Po šankapra
 
 - Chce se to trochu připravit. Když večer před tím vypijete pět piv v hospodě a zajíte to hamburgerem a hranolkama, šankaprakšalána vás asi vyčistí, ale lépe vám nebude. Alespoň den před tím bez masa, bez alkoholu, bez kávy.
   
-- Uvolnit se. Mám tu výhodu, že mi pití slané vody nevadí a libí se mi pozorovat, co to všechno se mnou dělá. Hodně lidí na fórech si stěžuje, že se jim celá procedura nepodařila (nenahodil se ten průtok celou trávicí soustavou). Je to asi proto že nebyli dost uvolnění. Pokud se to nepovede a voda zůstane v žaludku, je lepší ji vyblít. To je ostatně taky jogínská očista.
+- Uvolnit se. Mám tu výhodu, že mi pití slané vody nevadí a líbí se mi pozorovat, co to všechno se mnou dělá. Hodně lidí na fórech si stěžuje, že se jim celá procedura nepodařila (nenahodil se ten průtok celou trávicí soustavou). Je to asi proto, že nebyli dost uvolnění. Pokud se to nepovede a voda zůstane v žaludku, je lepší ji vyblít. To je ostatně taky jogínská očista.
 
 - Do hodiny po skončení se musí snít ta rýže s máslem. Jinak začnou trávicí šťávy naleptávat prázdné střevo a to nechceme.
 

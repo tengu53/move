@@ -2,9 +2,12 @@
 title: "Co vlastně člověk potřebuje pro skromný život?"
 author: "Edgar Walden"
 date: 2024-04-15
+tags: ["skromnost", "minimalismus", "modré zóny", "životní styl"]
+categories: ["lifespan"]
+description: "Úvaha o skromném, ale plnohodnotném životě inspirovaná modrými zónami"
 ---
 
-Přivedly mě na to úvahy o modrých zónách. Století lidé na Okinawě žijí klidně, skromně, hodně se hýbou a nepodceňují společenský život. Co je ale zajímavé, mají obvykle jen malý soukromý prostor (což je Japonsku ostatně běžné) a více žijí  venku a v komunitě.<!-- more --> Úplný opak toho, co máme u nás, kde se zavíráme do velkých domů. Samozřejmě na tropické Okinawě se žije jinak, než u nás, kde se člověk musí pul roku schovávat v teple. Ale i tak.     
+Přivedly mě na to úvahy o modrých zónách. Století lidé na Okinawě žijí klidně, skromně, hodně se hýbou a nepodceňují společenský život. Co je ale zajímavé, mají obvykle jen malý soukromý prostor (což je Japonsku ostatně běžné) a více žijí venku a v komunitě.<!-- more --> Úplný opak toho, co máme u nás, kde se zavíráme do velkých domů. Samozřejmě na tropické Okinawě se žije jinak, než u nás, kde se člověk musí půl roku schovávat v teple. Ale i tak.     
 
 ![Můj oblíbený solarpunk](/images/solar-skromny-cool.jpeg)
 

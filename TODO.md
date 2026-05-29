@@ -25,17 +25,17 @@ Pracovni plan pro novy staticky web ve slozce `public`, generovany z Markdown so
 
 ## Obsah a redakcni vrstva
 
-- [ ] Doplnit perexy nebo kratke popisy u clanku, ktere nemaji `description`.
-- [ ] Sjednotit tagy s diakritikou a bez diakritiky, napriklad `Hostyn` vs. `Hostýn`.
-- [ ] Zrevidovat kategorie a zvazit, jestli jich nema byt mene a stabilnejsich.
-- [ ] Zkontrolovat preklepy a starsi formulace u importovanych clanku.
+- [x] Doplnit perexy nebo kratke popisy u clanku, ktere nemaji `description`.
+- [x] Sjednotit tagy s diakritikou a bez diakritiky, napriklad `Hostyn` vs. `Hostýn`.
+- [x] Zrevidovat kategorie a zvazit, jestli jich nema byt mene a stabilnejsich.
+- [x] Zkontrolovat preklepy u importovanych clanku.
 
 ## Technicke doplneni
 
 - [ ] Pridat generovani RSS feedu bez Huga.
 - [ ] Pridat `sitemap.xml` misto soucasneho jednoducheho `sitemap.txt`.
 - [ ] Pridat `robots.txt`.
-- [ ] Doplnit Open Graph a Twitter metadata pro sdileni clanku.
+- [ ] Doplnit Open Graph metadata pro sdileni clanku.
 - [ ] Pridat kanonicke URL podle finalni domeny.
 - [ ] Pridat jednoduchou kontrolu rozbitych odkazu jako samostatny prikaz.
 - [ ] Zajistit, aby build sel spustit jednim prikazem a jasne vypsal pocet vygenerovanych stran.

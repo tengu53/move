@@ -20,12 +20,12 @@ Ani ovocné stromy se letos moc nepředvedly. Měli jsme pár švestek - už jso
 
 Rajčata nám navíc v létě potlouklo krupobití - kroupy velké až 3 cm letěly ve vichřici téměř vodorovně. Jiné rostliny a stromy to přežily, ale odnesla to fasáda na části domu, která ale byla udělaná blbě. Takže mě čeká ještě práce se stavebním lepidlem. Ale tu si nechám, až bude přece jen trochu chladněji.
 
-## Winter is comming
+## Winter is coming
 
 Každopádně dřevo je už dlouho pod střechou, ve skladu máme si železnou zásobu dřevních briket (jsou drahé, nechávám je, pokud by opravdu hodně mrzlo). Ve skladu je i metrák brambor, bedna cibule a bedna česneku. Takže zima bude hodně bramborová. Začínám uvažovat taky o pultovém mrazáku, protože se nám tu rýsují různé zdroje masa. A výhledově to bude chtít také **mlýnek na mouku** - ideálně nějaký ruční, ale takový, ke kterému by se dal posléze *dobastlit* nějaký druh motorového pohonu. A kupovat obilí (pšenice, žito) z dobrého zdroje po pytlech. Přece jen semínko je taková přirozená "konzerva" mouky.
 
 ## Hefaiston
 
-Ještě v srpnu se nám podařilo navštívit akci Hefaiston. Jde o setkání kovářů z celého světa na hradě Helfštýn (fotka v úvodu). Akce samotná byla výborná. Už jen ten zvuk kovadlin a bucharů  doprovázený kouřem z uhlí měl něco do sebe. Jenom mě překvapilo, že ne úplně nízké vstupné nešlo platit kartou. A také množství stánků s různým *shitem* v podhradí. Samozřejmě, prodávaly se tu třeba pěkné šperky nebo potřeby pro kováře, ale celkově spíš nic, než moc. 
+Ještě v srpnu se nám podařilo navštívit akci Hefaiston. Jde o setkání kovářů z celého světa na hradě Helfštýn (fotka v úvodu). Akce samotná byla výborná. Už jen ten zvuk kovadlin a bucharů doprovázený kouřem z uhlí měl něco do sebe. Jenom mě překvapilo, že ne úplně nízké vstupné nešlo platit kartou. A také množství stánků s různým *shitem* v podhradí. Samozřejmě, prodávaly se tu třeba pěkné šperky nebo potřeby pro kováře, ale celkově spíš nic, než moc. 
 
 Obecně mě tato ekonomizace a komodifikace kulturních akcí trochu štve. Jasně, stánky k nim asi patří, ale mám dojem, že se to často přehání. Navíc dost takových prodejců cílí hlavně na děti a to mně vadí dvojnásob. Ale jinak pohoda, na Hefaiston se podíváme i příště.

@@ -3,7 +3,7 @@ title: "JOMO - jsem rád, že u toho nemusím být"
 date: 2022-08-23
 draft: false
 author: "Edgar Walden"
-tags: ["JOMO", "minimalismus", "introverts", "životní styl"]
+tags: ["jomo", "minimalismus", "introverti", "životní styl"]
 categories: ["lifespan"]
 description: "O radosti z toho, že u něčeho nemusíte být"
 ---

@@ -10,7 +10,7 @@ description: "O důležitosti vědomého opakování a tvorbě návyků"
 
 Z denních poznámek: 
 
-> "Pouhým  opakováním určité aktivity dáváme nervovému systému najevo, že je tahle specifická akce a kontext, v němž ji provádíme, důležitá. Jde tedy o to dávat pozor na věci, které opakujeme. A že toho opakujeme hodně."
+> "Pouhým opakováním určité aktivity dáváme nervovému systému najevo, že je tahle specifická akce a kontext, v němž ji provádíme, důležitá. Jde tedy o to dávat pozor na věci, které opakujeme. A že toho opakujeme hodně."
 >
 >*Podcast Brain We Are*
 
