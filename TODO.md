@@ -17,8 +17,11 @@ Pracovni plan pro novy staticky web ve slozce `public`, generovany z Markdown so
 - [x] vytvořit skill, kde bude popsáno chování AI agenta
 - [x] zmenšit nadpis blogu o třetinu a dát ho netučně
 - [x] možná jen informace - základní adresa webu bude https://movequietly.eu
+- [x] Upravit .gitignore podle aktuálních požadavků
+- [x] Doplnit složku inbox, kde se budou dávat texty a obsah pro AI procesing
+- [x] Doplnit do skillu wowkflow (Inbox - processing (doplnění tagů, překopírování do složek atd.) - generování)
+- [x] Doplnit soubor s README a návodem
 
-Poznamka: Zakladni adresa webu je `https://movequietly.eu`. Clanky maji mit co nejjednodussi slug primo v rootu, tedy `https://movequietly.eu/nazev-clanku/`. Archiv vsech clanku zustava na `/posts/`.
 
 ## Obsah a redakcni vrstva
 

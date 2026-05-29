@@ -4,6 +4,13 @@
 *.swp
 *~
 
+# Generated site output
+/public/
+
+# AI processing inbox keeps only its instructions in git
+/inbox/*
+!/inbox/README.md
+
 # OS generated files
 .DS_Store
 .DS_Store?

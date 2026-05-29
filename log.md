@@ -8,3 +8,4 @@
 - Doplnene projektove TODO a zalozen skill `skills/move-web-agent` pro pravidla prace AI agenta.
 - Upraven vzhled hlavicky webu a overen build prikazem `node build-web.mjs`.
 - Nastavena zakladni adresa `https://movequietly.eu` a zjednodusene URL clanku na root slugs typu `/nazev-clanku/`.
+- Doplnene pravidlo pro neverzovani generovaneho `public`, zalozen `inbox` pro AI processing a README s navodem.

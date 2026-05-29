@@ -7,11 +7,23 @@ description: Project workflow for maintaining the Move quietly static blog. Use 
 
 ## Workflow
 
+- Use `inbox` for raw incoming material from the user: Markdown drafts, source text, notes, image references, and rough metadata.
+- Process inbox material before publishing: normalize text encoding, add frontmatter, choose title/slug/date, assign tags and categories, copy usable images into `static/images`, then create or update a post in `posts`.
 - Treat `posts/*.md` and `static/images` as source content.
 - Treat `build-web.mjs` as the source of truth for templates, layout, routing, RSS/sitemap generation, and generated assets.
 - Treat `public` as generated output. Do not hand-edit files in `public`; change the generator or source content, then run `node build-web.mjs`.
 - Keep `netlify.toml` aligned with the current build command and publish directory.
 - Record meaningful project changes in `log.md` after implementation.
+
+## Publishing Flow
+
+1. Inspect `inbox` and identify source text, images, and user-provided metadata.
+2. Move finished article Markdown into `posts/<slug>.md`; keep the slug short, lowercase, ASCII, and stable.
+3. Copy final images into `static/images` and reference them as `/images/<file>`.
+4. Fill frontmatter consistently: `title`, `date`, `draft`, `author`, `tags`, `categories`, optional `description`, optional `cover`.
+5. Run `node build-web.mjs` to regenerate `public`.
+6. Verify local links and preview the page.
+7. Update `TODO.md` and append a dated note to `log.md`.
 
 ## Editing Rules
 
