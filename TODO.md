@@ -32,13 +32,13 @@ Pracovni plan pro novy staticky web ve slozce `public`, generovany z Markdown so
 
 ## Technicke doplneni
 
-- [ ] Pridat generovani RSS feedu bez Huga.
-- [ ] Pridat `sitemap.xml` misto soucasneho jednoducheho `sitemap.txt`.
-- [ ] Pridat `robots.txt`.
-- [ ] Doplnit Open Graph metadata pro sdileni clanku.
-- [ ] Pridat kanonicke URL podle finalni domeny.
-- [ ] Pridat jednoduchou kontrolu rozbitych odkazu jako samostatny prikaz.
-- [ ] Zajistit, aby build sel spustit jednim prikazem a jasne vypsal pocet vygenerovanych stran.
+- [x] Pridat generovani RSS feedu bez Huga.
+- [x] Pridat `sitemap.xml` misto soucasneho jednoducheho `sitemap.txt`.
+- [x] Pridat `robots.txt`.
+- [x] Doplnit Open Graph metadata pro sdileni clanku.
+- [x] Pridat kanonicke URL podle finalni domeny.
+- [x] Pridat jednoduchou kontrolu rozbitych odkazu jako samostatny prikaz.
+- [x] Zajistit, aby build sel spustit jednim prikazem a jasne vypsal pocet vygenerovanych stran.
 
 ## Design a UX
 

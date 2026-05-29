@@ -3,6 +3,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const contentDir = path.join(root, "posts");
+const pagesDir = path.join(root, "pages");
 const staticImagesDir = path.join(root, "static", "images");
 const outDir = path.join(root, "public");
 
@@ -25,6 +26,40 @@ function escapeHtml(value = "") {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
+}
+
+function absoluteUrl(pathname = "/") {
+  const cleanPath = pathname.startsWith("/") ? pathname : `/${pathname}`;
+  return new URL(cleanPath, site.baseUrl).href;
+}
+
+function postPermalink(slug) {
+  return `/${slug}/`;
+}
+
+function pagePermalink(slug) {
+  return `/${slug}/`;
+}
+
+function termPermalink(kind, term) {
+  return `/${kind}/${slugify(term)}/`;
+}
+
+function xmlDate(date) {
+  if (/^\d{4}-\d{2}-\d{2}$/.test(date)) return date;
+  const parsed = new Date(`${date}T00:00:00+01:00`);
+  return Number.isNaN(parsed.getTime()) ? "" : parsed.toISOString().slice(0, 10);
+}
+
+function metaDateTime(date) {
+  if (/^\d{4}-\d{2}-\d{2}$/.test(date)) return `${date}T00:00:00+01:00`;
+  const parsed = new Date(date);
+  return Number.isNaN(parsed.getTime()) ? "" : parsed.toISOString();
+}
+
+function rssDate(date) {
+  const parsed = new Date(`${date}T12:00:00Z`);
+  return Number.isNaN(parsed.getTime()) ? new Date().toUTCString() : parsed.toUTCString();
 }
 
 function slugify(value = "") {
@@ -251,19 +286,41 @@ function removeDuplicateCoverImage(markdown, coverImage) {
   });
 }
 
-function pageShell({ title, description = site.description, body, depth = 0 }) {
+function pageShell({
+  title,
+  description = site.description,
+  body,
+  depth = 0,
+  canonicalPath = "/",
+  ogType = "website",
+  ogImage = "",
+  publishedTime = "",
+}) {
   const home = relativeAsset("index.html", depth);
   const posts = relativeAsset("posts/index.html", depth);
   const categories = relativeAsset("categories/index.html", depth);
   const tags = relativeAsset("tags/index.html", depth);
+  const about = relativeAsset("about/index.html", depth);
   const css = relativeAsset("styles/site.css", depth);
+  const canonicalUrl = absoluteUrl(canonicalPath);
+  const pageTitle = `${title} | ${site.title}`;
+  const socialImage = ogImage ? absoluteUrl(normalizeImage(ogImage)) : "";
   return `<!doctype html>
 <html lang="cs">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(title)} | ${escapeHtml(site.title)}</title>
+  <title>${escapeHtml(pageTitle)}</title>
   <meta name="description" content="${escapeHtml(description)}">
+  <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
+  <link rel="alternate" type="application/rss+xml" title="${escapeHtml(site.title)} RSS" href="${escapeHtml(absoluteUrl("/rss.xml"))}">
+  <meta property="og:site_name" content="${escapeHtml(site.title)}">
+  <meta property="og:title" content="${escapeHtml(title)}">
+  <meta property="og:description" content="${escapeHtml(description)}">
+  <meta property="og:type" content="${escapeHtml(ogType)}">
+  <meta property="og:url" content="${escapeHtml(canonicalUrl)}">
+  ${socialImage ? `<meta property="og:image" content="${escapeHtml(socialImage)}">` : ""}
+  ${publishedTime ? `<meta property="article:published_time" content="${escapeHtml(metaDateTime(publishedTime))}">` : ""}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
   <link rel="stylesheet" href="${css}">
 </head>
@@ -277,6 +334,7 @@ function pageShell({ title, description = site.description, body, depth = 0 }) {
       <a href="${posts}">Archiv</a>
       <a href="${categories}">Kategorie</a>
       <a href="${tags}">Tagy</a>
+      <a href="${about}">O mně</a>
     </nav>
   </header>
   ${body}
@@ -376,6 +434,23 @@ async function loadPosts() {
   return sorted;
 }
 
+async function loadPages() {
+  const files = (await readdir(pagesDir)).filter((file) => file.endsWith(".md")).sort();
+  const pages = [];
+  for (const file of files) {
+    const source = await readFile(path.join(pagesDir, file), "utf8");
+    const { data, body } = parseFrontmatter(source);
+    const fallbackSlug = file.replace(/\.md$/, "");
+    pages.push({
+      slug: data.slug || fallbackSlug,
+      title: data.title || fallbackSlug,
+      description: data.description || site.description,
+      body,
+    });
+  }
+  return pages;
+}
+
 function groupByTerm(posts, key) {
   const groups = new Map();
   for (const post of posts) {
@@ -432,11 +507,133 @@ function renderPost(post, posts) {
     ${newer ? `<a href="${postHref(newer.slug, 1)}"><span>Novější</span>${escapeHtml(newer.title)}</a>` : "<span></span>"}
   </nav>
 </main>`;
-  return pageShell({ title: post.title, description: post.summary, body, depth: 1 });
+  return pageShell({
+    title: post.title,
+    description: post.summary,
+    body,
+    depth: 1,
+    canonicalPath: postPermalink(post.slug),
+    ogType: "article",
+    ogImage: image,
+    publishedTime: post.date,
+  });
+}
+
+function renderPage(page) {
+  const body = `<main>
+  <article>
+    <header class="post-head">
+      <h1>${escapeHtml(page.title)}</h1>
+      ${page.description ? `<p class="meta">${escapeHtml(page.description)}</p>` : ""}
+    </header>
+    ${markdownToHtml(page.body, 1)}
+  </article>
+</main>`;
+  return pageShell({
+    title: page.title,
+    description: page.description,
+    body,
+    depth: 1,
+    canonicalPath: pagePermalink(page.slug),
+  });
+}
+
+function renderRss(posts) {
+  const items = posts.slice(0, 20).map((post) => {
+    const url = absoluteUrl(postPermalink(post.slug));
+    return `  <item>
+    <title>${escapeHtml(post.title)}</title>
+    <link>${escapeHtml(url)}</link>
+    <guid>${escapeHtml(url)}</guid>
+    <pubDate>${escapeHtml(rssDate(post.date))}</pubDate>
+    <description>${escapeHtml(post.summary)}</description>
+  </item>`;
+  }).join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>${escapeHtml(site.title)}</title>
+  <link>${escapeHtml(absoluteUrl("/"))}</link>
+  <description>${escapeHtml(site.description)}</description>
+  <language>cs</language>
+  <atom:link href="${escapeHtml(absoluteUrl("/rss.xml"))}" rel="self" type="application/rss+xml" />
+${items}
+</channel>
+</rss>
+`;
+}
+
+function renderSitemap(entries) {
+  const urls = entries.map((entry) => {
+    const lastmod = entry.lastmod ? `\n    <lastmod>${escapeHtml(entry.lastmod)}</lastmod>` : "";
+    return `  <url>
+    <loc>${escapeHtml(absoluteUrl(entry.path))}</loc>${lastmod}
+  </url>`;
+  }).join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls}
+</urlset>
+`;
+}
+
+function renderRobots() {
+  return `User-agent: *
+Allow: /
+
+Sitemap: ${absoluteUrl("/sitemap.xml")}
+`;
+}
+
+async function pathExists(file) {
+  try {
+    await stat(file);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function collectHtmlFiles(dir) {
+  const files = [];
+  for (const entry of await readdir(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...await collectHtmlFiles(full));
+    } else if (entry.isFile() && entry.name.endsWith(".html")) {
+      files.push(full);
+    }
+  }
+  return files;
+}
+
+async function checkLinks() {
+  const htmlFiles = await collectHtmlFiles(outDir);
+  const broken = [];
+  for (const file of htmlFiles) {
+    const html = await readFile(file, "utf8");
+    for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
+      const value = match[1];
+      if (/^(https?:|mailto:|#)/i.test(value)) continue;
+      const target = path.resolve(path.dirname(file), value.split("#")[0].split("?")[0]);
+      if (!await pathExists(target)) {
+        broken.push(`${path.relative(outDir, file)} -> ${value}`);
+      }
+    }
+  }
+
+  if (broken.length) {
+    throw new Error(`Broken local links:\n${broken.join("\n")}`);
+  }
+
+  console.log(`Checked ${htmlFiles.length} HTML files: no broken local links.`);
 }
 
 async function main() {
   const posts = await loadPosts();
+  const pages = await loadPages();
   const categories = groupByTerm(posts, "categories");
   const tags = groupByTerm(posts, "tags");
 
@@ -598,16 +795,22 @@ figcaption,
   await writeHtml(path.join(outDir, "index.html"), pageShell({
     title: "Domů",
     body: renderHome(posts, categories, tags),
+    canonicalPath: "/",
   }));
 
   await writeHtml(path.join(outDir, "posts", "index.html"), pageShell({
     title: "Archiv",
     body: renderPostList(posts, "Archiv", 1),
     depth: 1,
+    canonicalPath: "/posts/",
   }));
 
   for (const post of posts) {
     await writeHtml(path.join(outDir, post.slug, "index.html"), renderPost(post, posts));
+  }
+
+  for (const page of pages) {
+    await writeHtml(path.join(outDir, page.slug, "index.html"), renderPage(page));
   }
 
   const termIndex = (heading, groups, kind) => `<main>
@@ -621,6 +824,7 @@ figcaption,
     title: "Kategorie",
     body: termIndex("Kategorie", categories, "categories"),
     depth: 1,
+    canonicalPath: "/categories/",
   }));
 
   for (const [term, list] of categories) {
@@ -628,6 +832,7 @@ figcaption,
       title: `Kategorie: ${term}`,
       body: renderPostList(list, `Kategorie: ${term}`, 2),
       depth: 2,
+      canonicalPath: termPermalink("categories", term),
     }));
   }
 
@@ -635,6 +840,7 @@ figcaption,
     title: "Tagy",
     body: termIndex("Tagy", tags, "tags"),
     depth: 1,
+    canonicalPath: "/tags/",
   }));
 
   for (const [term, list] of tags) {
@@ -642,16 +848,30 @@ figcaption,
       title: `Tag: ${term}`,
       body: renderPostList(list, `Tag: ${term}`, 2),
       depth: 2,
+      canonicalPath: termPermalink("tags", term),
     }));
   }
 
-  const sitemap = posts
-    .map((post) => `${post.slug}/index.html`)
-    .concat(["index.html", "posts/index.html", "categories/index.html", "tags/index.html"])
-    .join("\n");
-  await writeFile(path.join(outDir, "sitemap.txt"), `${sitemap}\n`, "utf8");
+  const sitemapEntries = [
+    { path: "/" },
+    { path: "/posts/" },
+    { path: "/categories/" },
+    { path: "/tags/" },
+    ...pages.map((page) => ({ path: pagePermalink(page.slug) })),
+    ...posts.map((post) => ({ path: postPermalink(post.slug), lastmod: xmlDate(post.date).slice(0, 10) })),
+    ...categories.map(([term]) => ({ path: termPermalink("categories", term) })),
+    ...tags.map(([term]) => ({ path: termPermalink("tags", term) })),
+  ];
+  await writeFile(path.join(outDir, "rss.xml"), renderRss(posts), "utf8");
+  await writeFile(path.join(outDir, "sitemap.xml"), renderSitemap(sitemapEntries), "utf8");
+  await writeFile(path.join(outDir, "robots.txt"), renderRobots(), "utf8");
 
-  console.log(`Generated ${posts.length} posts, ${categories.length} categories and ${tags.length} tags in ${outDir}`);
+  const htmlPages = 1 + 1 + 1 + 1 + pages.length + posts.length + categories.length + tags.length;
+  console.log(`Generated ${htmlPages} HTML pages, ${posts.length} posts, ${pages.length} pages, ${categories.length} categories, ${tags.length} tags, RSS, sitemap.xml and robots.txt in ${outDir}`);
+
+  if (process.argv.includes("--check-links")) {
+    await checkLinks();
+  }
 }
 
 await main();

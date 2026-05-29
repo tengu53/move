@@ -5,6 +5,7 @@ Staticky blog generovany vlastnim Node skriptem bez Huga.
 ## Struktura
 
 - `posts/` - zdrojove Markdown clanky
+- `pages/` - zdrojove Markdown stranky mimo archiv clanku
 - `static/images/` - zdrojove obrazky pouzivane clanky
 - `inbox/` - pracovni vstupy pro AI processing
 - `build-web.mjs` - generator webu
@@ -19,7 +20,16 @@ Staticky blog generovany vlastnim Node skriptem bez Huga.
 node build-web.mjs
 ```
 
-Generator nacte clanky z `posts`, zkopiruje obrazky ze `static/images` a vytvori web v `public`.
+Generator nacte clanky z `posts`, stranky z `pages`, zkopiruje obrazky ze `static/images` a vytvori web v `public`.
+Soucasti vystupu jsou HTML stranky, RSS feed, `sitemap.xml`, `robots.txt`, kanonicke URL a Open Graph metadata.
+
+## Kontrola odkazu
+
+```powershell
+node build-web.mjs --check-links
+```
+
+Prikaz nejdriv vygeneruje web a potom zkontroluje lokalni odkazy a obrazky v HTML vystupu.
 
 ## Lokalni nahled
 
@@ -43,7 +53,7 @@ Netlify pouziva:
   command = "node build-web.mjs"
 ```
 
-Zdrojem pravdy jsou `posts`, `static/images` a `build-web.mjs`; adresar `public` se pri buildu vytvari znovu.
+Zdrojem pravdy jsou `posts`, `pages`, `static/images` a `build-web.mjs`; adresar `public` se pri buildu vytvari znovu.
 
 ## Workflow noveho clanku
 
@@ -51,5 +61,5 @@ Zdrojem pravdy jsou `posts`, `static/images` a `build-web.mjs`; adresar `public`
 2. Zpracovat text do Markdown clanku s frontmatterem.
 3. Ulozit clanek do `posts/<slug>.md`.
 4. Finalni obrazky ulozit do `static/images`.
-5. Spustit `node build-web.mjs`.
+5. Spustit `node build-web.mjs --check-links`.
 6. Zkontrolovat lokalni nahled a odkazy.

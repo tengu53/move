@@ -1,6 +1,6 @@
 ---
 name: move-web-agent
-description: Project workflow for maintaining the Move quietly static blog. Use when working in this repository on build-web.mjs, posts/*.md, static/images, public output, TODO.md, log.md, Netlify deploy settings, or generated blog pages.
+description: Project workflow for maintaining the Move quietly static blog. Use when working in this repository on build-web.mjs, posts/*.md, pages/*.md, static/images, public output, TODO.md, log.md, Netlify deploy settings, or generated blog pages.
 ---
 
 # Move Web Agent
@@ -9,7 +9,7 @@ description: Project workflow for maintaining the Move quietly static blog. Use 
 
 - Use `inbox` for raw incoming material from the user: Markdown drafts, source text, notes, image references, and rough metadata.
 - Process inbox material before publishing: normalize text encoding, add frontmatter, choose title/slug/date, assign tags and categories, copy usable images into `static/images`, then create or update a post in `posts`.
-- Treat `posts/*.md` and `static/images` as source content.
+- Treat `posts/*.md`, `pages/*.md` and `static/images` as source content.
 - Treat `build-web.mjs` as the source of truth for templates, layout, routing, RSS/sitemap generation, and generated assets.
 - Treat `public` as generated output. Do not hand-edit files in `public`; change the generator or source content, then run `node build-web.mjs`.
 - Keep `netlify.toml` aligned with the current build command and publish directory.
