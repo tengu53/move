@@ -39,6 +39,7 @@ Pracovni plan pro novy staticky web ve slozce `public`, generovany z Markdown so
 - [x] Pridat kanonicke URL podle finalni domeny.
 - [x] Pridat jednoduchou kontrolu rozbitych odkazu jako samostatny prikaz.
 - [x] Zajistit, aby build sel spustit jednim prikazem a jasne vypsal pocet vygenerovanych stran.
+- [x] Doplnit sémantické značky <article>, <header> atd.
 
 ## Design a UX
 
@@ -51,7 +52,6 @@ Pracovni plan pro novy staticky web ve slozce `public`, generovany z Markdown so
 ## Pozdejsi napady
 
 - [ ] Pridat vyhledavani na klientu.
-- [ ] Pridat stranku "Nahodne texty" nebo vyber podle temat.
 - [ ] Vygenerovat JSON index clanku pro budouci filtrovani.
 - [ ] Zmensovat obrazky pri buildu a generovat nahledy.
 - [ ] Pripravit jednoduchy deploy postup pro novy generator.

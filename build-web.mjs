@@ -383,10 +383,12 @@ function renderPostCard(post, depth = 0) {
 
 function renderPostList(posts, heading, depth = 0) {
   return `<main>
-  <h1>${escapeHtml(heading)}</h1>
-  <div class="post-list">
+  <header class="page-head">
+    <h1>${escapeHtml(heading)}</h1>
+  </header>
+  <section class="post-list" aria-label="${escapeHtml(heading)}">
     ${posts.map((post) => renderPostCard(post, depth)).join("\n")}
-  </div>
+  </section>
 </main>`;
 }
 
@@ -814,10 +816,14 @@ figcaption,
   }
 
   const termIndex = (heading, groups, kind) => `<main>
-  <h1>${escapeHtml(heading)}</h1>
+  <header class="page-head">
+    <h1>${escapeHtml(heading)}</h1>
+  </header>
+  <section aria-label="${escapeHtml(heading)}">
   <ul>
     ${groups.map(([term, list]) => `<li><a href="${slugify(term)}/index.html">${escapeHtml(term)}</a> (${list.length})</li>`).join("\n")}
   </ul>
+  </section>
 </main>`;
 
   await writeHtml(path.join(outDir, "categories", "index.html"), pageShell({
