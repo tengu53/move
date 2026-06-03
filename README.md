@@ -63,3 +63,17 @@ Zdrojem pravdy jsou `posts`, `pages`, `static/images` a `build-web.mjs`; adresar
 4. Finalni obrazky ulozit do `static/images`.
 5. Spustit `node build-web.mjs --check-links`.
 6. Zkontrolovat lokalni nahled a odkazy.
+
+Opakovatelny helper pro mechanickou cast workflow:
+
+```powershell
+python scripts/process_inbox.py run
+```
+
+Prikaz zpracuje nejnovejsi Markdown v `inbox`, vytvori post v `posts`, pripadne zkopiruje nejpodobneji pojmenovany obrazek do `static/images`, doplni cover popisek `Obr: Nano-bana AI` a spusti `node build-web.mjs --check-links`.
+
+Metadata lze upresnit argumenty, napriklad:
+
+```powershell
+python scripts/process_inbox.py run muj-draft.md --category lifespan --tags "abstinence,nealko,zivotni styl"
+```

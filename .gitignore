@@ -3,6 +3,8 @@
 *.bak
 *.swp
 *~
+__pycache__/
+*.py[cod]
 
 # Generated site output
 /public/
