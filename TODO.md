@@ -51,8 +51,6 @@ Pracovni plan pro novy staticky web ve slozce `public`, generovany z Markdown so
 
 ## Pozdejsi napady
 
-- [ ] Pridat vyhledavani na klientu.
-- [ ] Vygenerovat JSON index clanku pro budouci filtrovani.
 - [ ] Zmensovat obrazky pri buildu a generovat nahledy.
 - [ ] Pripravit jednoduchy deploy postup pro novy generator.
 - [ ] Zalozit README s popisem, jak web generovat a publikovat.
