@@ -6,11 +6,9 @@ author: "Edgar Walden"
 tags: ["kompost", "zahrada", "biouhel", "alchymie"]
 categories: ["zahrada"]
 description: "O domácím kompostu, zahradě a životním cyklu hmoty"
-cover:
-    image: "images/kompost.jpg"
-    alt: "Kompost na konci zahrady"
-    caption: "Hromada organického materiálu na konci zahrady"
-    relative: false
+image: "images/kompost.jpg"
+image_alt: "Kompost na konci zahrady"
+image_caption: "Hromada organického materiálu na konci zahrady"
 ---
 
 Téměř veškerý **organický odpad**, který doma produkujeme, končí tady (viz obrázek). Nemáme žádný kompostér ve smyslu té zelené plastové nádoby, náš kompost je prostě hromada materiálu na konci zahrady, kterou tak dvakrát třikrát za rok přehážu vidlema. Když mám, dávám do toho biouhel. A víte co, taky to funguje.<!-- more -->

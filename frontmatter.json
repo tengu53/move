@@ -4,55 +4,68 @@
     {
       "name": "default",
       "pageBundle": false,
-      "previewPath": null,
       "fields": [
         {
-          "title": "Title",
+          "title": "Náhled",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "title",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
+          "title": "date",
           "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
+          "type": "datetime"
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
+          "title": "draft",
           "name": "draft",
           "type": "draft"
         },
         {
-          "title": "Tags",
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "Categories",
+          "title": "categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "image_alt",
+          "name": "image_alt",
+          "type": "string"
+        },
+        {
+          "title": "image_caption",
+          "name": "image_caption",
+          "type": "string"
         }
       ]
     }
   ],
   "frontMatter.framework.id": "other",
-  "frontMatter.content.publicFolder": "",
+  "frontMatter.content.publicFolder": "static",
   "frontMatter.content.pageFolders": [
     {
       "title": "posts",
       "path": "[[workspace]]/posts"
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.assets.publicFolder": "static",
+  "frontMatter.assets.folderPath": "static/images"
 }

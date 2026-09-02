@@ -6,15 +6,15 @@ author: "Edgar Walden"
 tags: ["trendspotting", "analog", "grafika", "skicování", "ai", "řemeslo"]
 categories: ["experimenty"]
 description: "Úvaha o návratu k ruční kresbě, analogové fotografii, hrubým texturám a lidské nedokonalosti jako nové estetické hodnotě."
-cover:
-    image: "taktilni-radikalismus.png"
-    alt: "Analogová kamera, papíry, inkoustové tahy a hrubá grafická textura"
-    caption: "Obr: Nano-bana AI"
+image: "/images/taktilni-radikalismus.png"
+image_alt: "Analogová kamera, papíry, inkoustové tahy a hrubá grafická textura"
+image_caption: "Obr: Nano-bana AI"
 ---
 
 *Taktilní grafický vzdor (Analog Linework Revival) je radikální návrat k záměrně nedokonalé lidské práci, ručnímu kreslení, hrubým texturám a analogové fotografii.*
 
 Žijeme v době vizuálního blahobytu, který ale začíná chutnat jako polotovar. Umělá inteligence dokáže za vteřinu vygenerovat hyperrealistický obraz a digitální nástroje nám odpustí každou chybu díky magické zkratce Ctrl+Z. Jenže už to unavuje, voe.<!-- more -->
+
 
 ## Digitální elita utíká k hmotě
 

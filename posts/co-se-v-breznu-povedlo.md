@@ -6,10 +6,8 @@ author: "Edgar Walden"
 tags: ["doma", "as time goes by"]
 categories: ["doma"]
 description: "Reflexe turbulentního března z pohledu domova, zahrady a samozásobitelství"
-cover:
-    image: "images/morava-jaro.jpg"
-    alt: "Řeka Morava u Kvasic"
-    relative: true # hl
+image: "images/morava-jaro.jpg"
+image_alt: "Řeka Morava u Kvasic"
 ---
 
 Když soustředím pozornost jen na dění okolo našeho domu, zahrady a sebe samého, pokračoval březen v podobném duchu, jako konec února - víc optimisticky. <!-- more -->

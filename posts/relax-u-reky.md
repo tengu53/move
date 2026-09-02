@@ -5,11 +5,9 @@ date: 2024-09-08
 tags: ["řeka", "kolo", "samota", "odpočinek"]
 categories: ["cesty"]
 description: "Krátké zastavení u Moravy na konci léta"
-cover:
-    image: "images/reka-na-podzim.jpg"
-    alt: "Morava na konci léta"
-    caption: "Morava na konci léta"
-    relative: true # hl
+image: "images/reka-na-podzim.jpg"
+image_alt: "Morava na konci léta"
+image_caption: "Morava na konci léta"
 
 ---
 

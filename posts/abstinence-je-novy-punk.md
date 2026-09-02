@@ -6,10 +6,9 @@ author: "Edgar Walden"
 tags: ["abstinence", "nealko", "životní styl", "trendspotting", "biohacking"]
 categories: ["lifespan"]
 description: "Úvaha o nástupu neo-sober edge, nealko rituálech a abstinenci jako novém vyjádření rebelství, kontroly a sociálního statusu."
-cover:
-    image: "neo-sober-edge.jpg"
-    alt: "Neo-sober edge ranní běh, dry rave a nealko bar"
-    caption: "Obr: Nano-bana AI"
+image: "neo-sober-edge.jpg"
+image_alt: "Neo-sober edge ranní běh, dry rave a nealko bar"
+image_caption: "Obr: Nano-bana AI"
 ---
 
 *Nastupuje éra „The Neo-Sober Edge“*

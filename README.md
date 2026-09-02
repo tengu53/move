@@ -70,7 +70,7 @@ Opakovatelny helper pro mechanickou cast workflow:
 python scripts/process_inbox.py run
 ```
 
-Prikaz zpracuje nejnovejsi Markdown v `inbox`, vytvori post v `posts`, pripadne zkopiruje nejpodobneji pojmenovany obrazek do `static/images`, doplni cover popisek `Obr: Nano-bana AI` a spusti `node build-web.mjs --check-links`.
+Prikaz zpracuje nejnovejsi Markdown v `inbox`, vytvori post v `posts`, pripadne zkopiruje nejpodobneji pojmenovany obrazek do `static/images`, doplni `image`, `image_alt` a `image_caption` s popiskem `Obr: Nano-bana AI` a spusti `node build-web.mjs --check-links`.
 
 Metadata lze upresnit argumenty, napriklad:
 

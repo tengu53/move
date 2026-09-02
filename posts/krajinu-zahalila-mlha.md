@@ -6,10 +6,8 @@ author: "Edgar Walden"
 tags: ["Hostýn", "krajina", "ultreia", "příroda"]
 categories: ["ultreia"]
 description: "O překvapivém výstupu nad mlhu na Větřák a pohledu na Hostýn"
-cover:
-    image: "images/hostyn_v_mlze.jpg"
-    alt: "Hostýn v mlze"
-    relative: true # hl
+image: "images/hostyn_v_mlze.jpg"
+image_alt: "Hostýn v mlze"
 ---
 
 Co se týká počasí, připomínaly u nás poslední dny spíš takový mlžný Mordor. Přesto ale mlha umí překvapit.<!-- more -->

@@ -22,3 +22,7 @@
 - Zpracovan novy inbox text `taktilní_grafický_vzdor.md` do clanku `posts/taktilni-graficky-vzdor.md`; obrazek `taktilní_radikalismus.png` zkopirovan jako `static/images/taktilni-radikalismus.png` a doplnen s popiskem `Obr: Nano-bana AI`.
 - Upraven nadpis clanku `taktilni-graficky-vzdor` podle aktualizace v inboxu; URL zustala beze zmeny.
 - Znovu upraven nadpis clanku `taktilni-graficky-vzdor` na `Taktilní grafický vzdor: Inkoust, chyby a zrno`.
+
+## 2026-08-07
+
+- Prevedena deklarace obrazku ve frontmatteru z `cover.image` na top-level `image`, vcetne `image_alt` a `image_caption`; upraven generator, inbox helper, konfigurace Front Matter CMS a projektova dokumentace. Overeno pres `node build-web.mjs --check-links`.

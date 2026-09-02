@@ -20,7 +20,7 @@ description: Project workflow for maintaining the Move quietly static blog. Use 
 1. Inspect `inbox` and identify source text, images, and user-provided metadata.
 2. Move finished article Markdown into `posts/<slug>.md`; keep the slug short, lowercase, ASCII, and stable.
 3. Copy final images into `static/images` and reference them as `/images/<file>`.
-4. Fill frontmatter consistently: `title`, `date`, `draft`, `author`, `tags`, `categories`, optional `description`, optional `cover`.
+4. Fill frontmatter consistently: `title`, `date`, `draft`, `author`, `tags`, `categories`, optional `description`, optional `image`, `image_alt`, and `image_caption`.
 5. Run `node build-web.mjs` to regenerate `public`.
 6. Verify local links and preview the page.
 7. Update `TODO.md` and append a dated note to `log.md`.

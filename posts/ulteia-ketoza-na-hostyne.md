@@ -6,11 +6,9 @@ author: "Edgar Walden"
 tags: ["ultreia", "pochod", "Hostýn", "ketóza", "turistika"]
 categories: ["ultreia"]
 description: "Sólový výlet do Hostýnských vrchů s přerušovaným půstem"
-cover:
-    image: "/images/pardus.jpg"
-    alt: "Pardus - jedna z nejhezčích vyhlídek v Česku"
-    caption: "Pardus - jedna z nejhezčích vyhlídek v Česku"
-    relative: false
+image: "/images/pardus.jpg"
+image_alt: "Pardus - jedna z nejhezčích vyhlídek v Česku"
+image_caption: "Pardus - jedna z nejhezčích vyhlídek v Česku"
 ---
 
 Po delším čase se mi podařilo udělat si sólo výlet do Hostýnských vrchů. Ráno jsem jel autem do Hulína (10 minut) na šestou na vlak, pak vlakem do Bystřice pod Hostýnem (24 minut). Nahoře na Hostýně jsem byl 7:15. :-) <!-- more -->

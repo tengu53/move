@@ -5,10 +5,8 @@ date: 2024-06-04
 tags: ["pohyb", "nordic walking", "chůze", "rekreace"]
 categories: ["pohyb"]
 description: "Proč nordic walking funguje jako komplexní rekreační pohyb"
-cover:
-    image: "images/nordic.jpeg"
-    alt: "Nordic walking"
-    relative: true # hl
+image: "images/nordic.jpeg"
+image_alt: "Nordic walking"
 ---
 
 Poslední dobou moc neběhám ani nejezdím na kole. Obě pohybové aktivity jsem nahradil **Nordic Walkingem**, tedy chůzí s hůlkama. Ale ne, není to ta důchodcovská varianta chůze s oporou o hůlky (i když proti té nic). <!-- more -->Nordic walking je opravdový komplexní pohyb a **re-kreační** aktivita. Jak to myslím? Zkusím vysvětlit: 

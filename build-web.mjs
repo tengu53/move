@@ -373,11 +373,11 @@ function renderTermLinks(kind, terms, depth) {
 
 function renderPostCard(post, depth = 0) {
   const image = post.coverImage || post.firstImage;
-  return `<article class="post-card">
-  ${image ? `<a href="${postUrl(post, depth)}"><img src="${escapeHtml(imageSrc(image, depth))}" alt="${escapeHtml(post.coverAlt || post.title)}" loading="lazy"></a>` : ""}
+  return `<article class="post-card${image ? " has-image" : ""}">
+  ${image ? `<a class="post-card-image" href="${postUrl(post, depth)}"><img src="${escapeHtml(imageSrc(image, depth))}" alt="${escapeHtml(post.coverAlt || post.title)}" loading="lazy"></a>` : ""}
   <h2><a href="${postUrl(post, depth)}">${escapeHtml(post.title)}</a></h2>
   <p class="meta">${dateLabel(post.date)}${post.categories.length ? ` · ${renderTermLinks("categories", post.categories, depth)}` : ""}</p>
-  <p>${escapeHtml(post.summary)}</p>
+  <p class="post-summary">${escapeHtml(post.summary)}</p>
 </article>`;
 }
 
@@ -423,9 +423,9 @@ async function loadPosts() {
       tags: Array.isArray(data.tags) ? data.tags : [],
       categories: Array.isArray(data.categories) ? data.categories : [],
       description: data.description || "",
-      coverImage: data.cover?.image ? normalizeImage(data.cover.image) : "",
-      coverAlt: data.cover?.alt || "",
-      coverCaption: data.cover?.caption || "",
+      coverImage: data.image ? normalizeImage(data.image) : data.cover?.image ? normalizeImage(data.cover.image) : "",
+      coverAlt: data.image_alt || data.cover?.alt || "",
+      coverCaption: data.image_caption || data.cover?.caption || "",
       firstImage: firstImage(body),
       summary: excerpt(body, data.description),
       body,
@@ -468,18 +468,20 @@ function renderHome(posts, categories, tags) {
   const newest = posts.slice(0, 8);
   const topTags = tags.slice(0, 24);
   return `<main>
-  <section>
-    <h2>Nejnovější texty</h2>
+  <section class="home-blog" aria-labelledby="home-posts-heading">
+    <header class="section-head">
+      <h1 id="home-posts-heading">Nejnovější texty</h1>
+      <a href="posts/index.html">Celý archiv</a>
+    </header>
     <div class="post-list">
       ${newest.map((post) => renderPostCard(post, 0)).join("\n")}
     </div>
-    <p><a href="posts/index.html">Celý archiv</a></p>
   </section>
-  <section class="term-cloud">
+  <section class="term-cloud secondary-nav">
     <h2>Kategorie</h2>
     <p>${categories.map(([term, list]) => `<a href="${termUrl("categories", term, 0)}">${escapeHtml(term)} <span>${list.length}</span></a>`).join(" ")}</p>
   </section>
-  <details class="term-cloud">
+  <details class="term-cloud secondary-nav">
     <summary>Tagy</summary>
     <p>${topTags.map(([term, list]) => `<a href="${termUrl("tags", term, 0)}">${escapeHtml(term)} <span>${list.length}</span></a>`).join(" ")}</p>
     <p><a href="tags/index.html">Všechny tagy</a></p>
@@ -645,54 +647,139 @@ async function main() {
 
   await writeHtml(path.join(outDir, "styles", "site.css"), `:root {
   color-scheme: light;
+  --page-bg: #fbfaf6;
+  --text: #202124;
+  --muted: #5d5a52;
+  --line: #ddd6c8;
+  --soft: #f2efe7;
+  --accent: #245d54;
+  --accent-soft: #d9ebe6;
+  --link: #174ea6;
 }
 
 body {
-  max-width: 900px;
-  background: #fbfaf6;
-  color: #202124;
+  max-width: 880px;
+  background: var(--page-bg);
+  color: var(--text);
+  line-height: 1.68;
+}
+
+main {
+  margin-top: 0;
+}
+
+a {
+  color: var(--link);
+  text-underline-offset: .14em;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.18;
+  overflow-wrap: anywhere;
 }
 
 .site-header {
-  margin-bottom: 3.5rem;
-  border-bottom: 1px solid color-mix(in srgb, currentColor 18%, transparent);
-  padding-bottom: 1rem;
+  margin-bottom: 2.75rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1.15rem;
 }
 
 .brand {
-  margin-bottom: 1rem;
+  margin-bottom: 1.15rem;
 }
 
 .site-title {
   display: inline-block;
   font-weight: 400;
-  font-size: clamp(1.5rem, 4.7vw, 3.17rem);
+  font-size: clamp(1.9rem, 4vw, 3rem);
   line-height: .95;
   text-decoration: none;
   color: inherit;
+  max-width: 12ch;
 }
 
 .site-subtitle {
   max-width: 42rem;
   margin: .75rem 0 0;
-  color: #55524b;
-  font-size: 1.1rem;
+  color: var(--muted);
+  font-size: 1.05rem;
 }
 
 .site-header nav {
   display: flex;
-  gap: 1rem;
   flex-wrap: wrap;
+  gap: .5rem;
+  align-items: center;
+}
+
+.site-header nav a {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: .38rem .7rem;
+  background: rgba(255, 255, 255, .42);
+  color: var(--text);
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus-visible {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.35rem;
+}
+
+.section-head h1 {
+  margin: 0;
+  font-size: clamp(1.85rem, 3.7vw, 2.6rem);
+}
+
+.section-head a {
+  flex: 0 0 auto;
+  font-size: .95rem;
+  white-space: nowrap;
+}
+
+.home-blog {
+  margin-bottom: 3rem;
 }
 
 .post-list {
   display: grid;
-  gap: 2rem;
+  gap: 1.55rem;
 }
 
 .post-card {
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+  padding-bottom: 1.55rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.post-card.has-image {
+  display: grid;
+  grid-template-columns: minmax(0, 220px) minmax(0, 1fr);
+  column-gap: 1.25rem;
+  row-gap: .25rem;
+  align-items: start;
+}
+
+.post-card.has-image > :not(.post-card-image) {
+  grid-column: 2;
+}
+
+.post-card-image {
+  grid-row: 1 / span 3;
+  grid-column: 1;
+  display: block;
+  margin-top: .15rem;
 }
 
 .post-card img,
@@ -701,27 +788,85 @@ figure img {
   width: 100%;
   height: auto;
   border-radius: 6px;
-  background: #eee9df;
+  background: var(--soft);
+}
+
+.post-card img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
 
 .post-card h2 {
-  margin-bottom: .35rem;
+  margin: 0 0 .3rem;
+  font-size: clamp(1.25rem, 2.4vw, 1.65rem);
+}
+
+.post-card h2 a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+}
+
+.post-summary {
+  margin: .45rem 0 0;
+  color: #343536;
 }
 
 .meta,
 figcaption,
 .site-footer {
-  color: color-mix(in srgb, currentColor 65%, transparent);
+  color: var(--muted);
   font-size: .92rem;
+}
+
+.meta {
+  margin: 0;
+}
+
+.secondary-nav {
+  margin-top: 2.25rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid var(--line);
+}
+
+.secondary-nav h2 {
+  margin-top: 0;
+  font-size: 1.18rem;
+}
+
+.term-cloud p {
+  margin-bottom: 0;
+}
+
+.term-cloud summary {
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 600;
 }
 
 .term-cloud a {
   display: inline-block;
-  margin: 0 .5rem .5rem 0;
+  margin: 0 .35rem .45rem 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: .2rem .5rem;
+  background: rgba(255, 255, 255, .35);
+  color: var(--text);
+  font-size: .95rem;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.term-cloud a:hover,
+.term-cloud a:focus-visible,
+.tag-list a:hover,
+.tag-list a:focus-visible {
+  border-color: var(--accent);
+  background: var(--accent-soft);
 }
 
 .term-cloud span {
-  opacity: .72;
+  color: var(--muted);
+  font-size: .85em;
 }
 
 .post-head {
@@ -731,14 +876,17 @@ figcaption,
 .tag-list {
   display: flex;
   flex-wrap: wrap;
-  gap: .45rem;
+  gap: .42rem;
   margin-top: 1rem;
 }
 
 .tag-list a {
-  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
-  border-radius: 999px;
-  padding: .18rem .55rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: .18rem .5rem;
+  color: var(--text);
+  font-size: .92rem;
+  line-height: 1.35;
   text-decoration: none;
 }
 
@@ -752,7 +900,7 @@ figcaption,
   gap: 1rem;
   margin-top: 3rem;
   padding-top: 1rem;
-  border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-top: 1px solid var(--line);
 }
 
 .post-nav a {
@@ -767,7 +915,7 @@ figcaption,
 
 .post-nav span {
   display: block;
-  color: color-mix(in srgb, currentColor 60%, transparent);
+  color: var(--muted);
   font-size: .85rem;
   margin-bottom: .15rem;
 }
@@ -775,10 +923,59 @@ figcaption,
 .site-footer {
   margin-top: 4rem;
   padding-top: 1rem;
-  border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-top: 1px solid var(--line);
 }
 
 @media (max-width: 640px) {
+  body {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .site-header {
+    margin-bottom: 2rem;
+  }
+
+  .site-title {
+    max-width: none;
+    font-size: 2rem;
+  }
+
+  .site-subtitle {
+    font-size: 1rem;
+  }
+
+  .site-header nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .5rem;
+  }
+
+  .site-header nav a {
+    padding: .55rem .65rem;
+    text-align: center;
+  }
+
+  .section-head {
+    display: block;
+  }
+
+  .section-head h1 {
+    margin-bottom: .35rem;
+  }
+
+  .post-card.has-image {
+    display: block;
+  }
+
+  .post-card-image {
+    margin: 0 0 .85rem;
+  }
+
+  .post-card h2 {
+    font-size: 1.35rem;
+  }
+
   .post-nav {
     display: block;
   }

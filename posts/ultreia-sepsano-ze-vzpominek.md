@@ -1,16 +1,20 @@
 ---
-title: "Ultreia! Sepsáno z denních poznámek"
+title: Ultreia! Sepsáno z denních poznámek
 date: 2022-05-23
 draft: false
-author: "Edgar Walden"
-tags: ["ultreia", "myšlenky", "transcendence", "experiment", "růst"]
-categories: ["ultreia"]
-description: "Úvahy o hraničních tělesných experimentech, touze po transcendenci a poustevnickém životě"
-cover:
-    image: "/images/dyje_web.jpg"
-    alt: "Řeka Dyje kousek od Šobesu"
-    caption: "Řeka Dyje kousek od Šobesu"
-    relative: false
+author: Edgar Walden
+tags:
+    - ultreia
+    - myšlenky
+    - transcendence
+    - experiment
+    - růst
+categories:
+    - ultreia
+description: Úvahy o hraničních tělesných experimentech, touze po transcendenci a poustevnickém životě
+image: /images/dyje_web.jpg
+image_alt: Řeka Dyje kousek od Šobesu
+image_caption: Řeka Dyje kousek od Šobesu
 ---
 
 ... ale v té euforii z kávy ve slunečném ránu na historickém náměstí, byť plném aut (si v Kroměříži voe..), ke mě opět přišla jedna dlouhodobá myšlenka. No může za to také včerejší debata v práci. <!-- more -->

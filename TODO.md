@@ -40,6 +40,7 @@ Pracovni plan pro novy staticky web ve slozce `public`, generovany z Markdown so
 - [x] Pridat jednoduchou kontrolu rozbitych odkazu jako samostatny prikaz.
 - [x] Zajistit, aby build sel spustit jednim prikazem a jasne vypsal pocet vygenerovanych stran.
 - [x] Doplnit sémantické značky <article>, <header> atd.
+- [x] Předělat deklaraci obrázků ve frontmatteru na "image: cesta k obrázku"
 
 ## Design a UX
 

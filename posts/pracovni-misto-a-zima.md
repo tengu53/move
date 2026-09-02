@@ -6,11 +6,9 @@ author: "Edgar Walden"
 tags: ["home office", "zima", "capoeira", "qi-gong"]
 categories: ["doma"]
 description: "O vytvoření pracovního místa a o tom, jak lépe zvládat zimu na venkově"
-cover:
-    image: "images/pracovni-misto-1.jpg"
-    alt: "Rostlina v zahradě"
-    caption: "Mladá myšlenka začíná růst"
-    relative: true # hledá v adresáři článku
+image: "images/pracovni-misto-1.jpg"
+image_alt: "Rostlina v zahradě"
+image_caption: "Mladá myšlenka začíná růst"
 ---
 
 Někdy v koncem minulého roku se konečně podařilo vytvořit se jakž takž estetické pracovní místo.<!-- more --> 

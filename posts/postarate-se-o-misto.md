@@ -6,11 +6,9 @@ author: "Edgar Walden"
 tags: ["venkov", "dům", "investice do proher", "místo"]
 categories: ["lifespan"]
 description: "O energetické investici do místa a tom, jak vám místo začne vracet energii zpět"
-cover:
-    image: "images/dum-vecer.jpg"
-    alt: "Dům večer"
-    caption: "Soumrak milosrdně skryje nedodělky a je tu krásně"
-    relative: true # hledá v adresáři článku
+image: "images/dum-vecer.jpg"
+image_alt: "Dům večer"
+image_caption: "Soumrak milosrdně skryje nedodělky a je tu krásně"
 ---
 
 Jo more, je to takový ten klasický měšťácký sen běžné střední třídy - rodinný dům, dvě auta, zahrada a čokl. No jako jo, všechno z toho seznamu mám. Jasně, na domě je hypotéka, a jedno auto je na leasing, ale i tak. Ale řeknu ti, že by to byla taková výhra... Všechno má svá pro a proti.<!-- more -->

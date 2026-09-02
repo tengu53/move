@@ -136,10 +136,9 @@ def frontmatter(
         alt = title
         lines.extend(
             [
-                "cover:",
-                f"    image: {yaml_quote(image.target_name)}",
-                f"    alt: {yaml_quote(alt)}",
-                f"    caption: {yaml_quote(caption)}",
+                f"image: {yaml_quote(image.target_name)}",
+                f"image_alt: {yaml_quote(alt)}",
+                f"image_caption: {yaml_quote(caption)}",
             ]
         )
     lines.append("---")
