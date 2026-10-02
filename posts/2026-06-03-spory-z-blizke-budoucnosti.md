@@ -10,9 +10,9 @@ description: "Úvaha o uzavřeném znalostním podhoubí, soukromých archivech 
 
 *Budeme peer-to-peer sdílet veřejné části svého mycelia?*
 
-V digitálním hluku sílí nový fenomén: **Gated Knowledge Mycelium** 🍄 - uzavřené znalostní podhoubí. Sledujeme postupný ústup od veřejného sdílení směrem k osobním databázím. Místo statusů a odkazů si lidé začínají napřímo vyměňovat surové poznámky, mentální mapy, idea soubory a soukromé archivy myšlenek.<!-- more -->
+V digitálním hluku a v době, kdy běžný internetový obsah zahnívá a služby se zahovňují (Enshittification - viz Cory Doctorow) by mohl začít sílit nový fenomén: **Gated Knowledge Mycelium** 🍄 - uzavřené znalostní podhoubí. Je to ústup od veřejného sdílení směrem k osobním databázím. Místo statusů a odkazů si lidé začínají napřímo vyměňovat surové poznámky, mentální mapy, idea soubory a soukromé archivy myšlenek.<!-- more -->
 
-A když už, tak něco nasdílíme na GitHubu, jako to udělal [Andrej Karpathy s tou LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
+Nebo třeba nasdílené na GitHubu, jako to udělal [Andrej Karpathy s tou LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f). I když tohle asi není nejtypičtější příklad. 
 
 Hodnota se přesouvá z veřejných platforem do Obsidian vaultů, Logseq databází a k lokálním AI modelům běžícím nad vlastními daty. *Klíčem k tomuto obsahu už není technologie, ale důvěra. Přístup nevzniká kliknutím na follow, ale musíte si ho zasloužit.*
 
@@ -20,4 +20,4 @@ Je to **asynchronní intelektuální intimita**; organická, veřejnosti skrytá
 
 Tento posun taky zásadně mění definici digitálního statusu. Masové publikum ztrácí lesk, novou prestiží je možnost nahlédnout do cizí digitální zahrady. 🥕Vlastní strukturovaný archiv znalostí se stává nejcennějším profesním kapitálem. Vykřikování do feedů končí.
 
-Nejdřív mi ukaž své mycelium, voe. #trendspotting
+Nejdřív mi ukaž své mycelium, woe. #trendspotting

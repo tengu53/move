@@ -13,18 +13,18 @@ image_caption: "Obr: Nano-bana AI"
 
 *Taktilní grafický vzdor (Analog Linework Revival) je radikální návrat k záměrně nedokonalé lidské práci, ručnímu kreslení, hrubým texturám a analogové fotografii.*
 
-Žijeme v době vizuálního blahobytu, který ale začíná chutnat jako polotovar. Umělá inteligence dokáže za vteřinu vygenerovat hyperrealistický obraz a digitální nástroje nám odpustí každou chybu díky magické zkratce Ctrl+Z. Jenže už to unavuje, voe.<!-- more -->
+Žijeme v době vizuálního blahobytu, který ale začíná chutnat jako nedomrlý polotovar. Umělá inteligence dokáže za vteřinu vygenerovat hyperrealistický obraz a digitální nástroje nám odpustí každou chybu díky magické zkratce Ctrl+Z. Jenže už to unavuje, woe.<!-- more -->
 
 
-## Digitální elita utíká k hmotě
+## Útěk ke hmotě
 
-**Zápisníky místo iPadů:** Moleskine, Leuchtturm, ale spíš obrovská sloha papírů. Programátoři, datoví analytici a lidé z tech světa na sociálních sítích masivně sdílejí fotografie svých fyzických zápisníků. Ty jsou plné ručně kreslených diagramů, algoritmických map a architektonických skic vytvořených poctivými technickými linery a kaligrafickými pery. Rotring Art pen a [Sakura Pigma Micron](https://cz.pinterest.com/search/pins/?q=Sakura%20Pigma%20Micron).
+**Zápisníky místo iPadů:** Moleskine, Leuchtturm, ale spíš obrovská sloha papírů spojený gumou z píchnuté cyloduše. Lidé masivně sdílejí fotografie svých fyzických zápisníků. Ty jsou plné ručně kreslených diagramů, algoritmických map a architektonických skic vytvořených poctivými technickými linery a kaligrafickými pery. Rotring Art pen a [Sakura Pigma Micron](https://cz.pinterest.com/search/pins/?q=Sakura%20Pigma%20Micron). Nebo prostě čmáranice **centropenkou**. 
 
-**Urban sketching bez záchranné sítě:** Lokální komunity urban sketchingu zažívají obrovský boom. Jejich hlavní pravidlo zní: „Žádné Ctrl+Z“. Jde o zachycení reality tady a teď, s každou křivou čárou, chybou a kaňkou.
+**Urban sketching bez záchranné sítě:** Lokální komunity urban sketchingu. Jejich hlavní pravidlo zní: „Žádné Ctrl+Z“. Jde o zachycení reality tady a teď, s každou křivou čárou, chybou a kaňkou. Rybářkou stoličku, skicák a fixku. 
 
-**Návrat analogu:** Podobný posun vidíme ve vizuálním umění. Lidi vyrážejí do ulic a do krajiny se starými kinofilmovými kompakty nebo zrcadlovkami. Ti radikálnější si vezmou deskáč. Touží po organickém zrnu a magickém momentu překvapení, který přichází až po vyvolání filmu. Vývojnici a fotorukáv s sebou, vývojku si pak strčit po tričko, aby se trochu ohřála. Ustalovač funguje i studený.
+**Návrat analogu:** Podobný posun vidíme ve vizuálním umění. Lidi vyrážejí do ulic a do krajiny se starými kinofilmovými kompakty nebo zrcadlovkami. Ti radikálnější si vezmou deskáč. Touží po organickém zrnu a magickém momentu překvapení, který přichází až po vyvolání filmu. Vývojnici a fotorukáv s sebou, vývojku si pak strčit po tričko, aby se trochu ohřála. Ustalovač funguje i studený. 
 
-**Autentický underground:** Nezávislé hudební labely, ziny a mikro-značky záměrně používají hrubou grafiku s přiznanou texturou papíru, nerovným tiskem a nepravidelnými liniemi. Je to pro ně jasná značka autentického původu.
+**Autentický underground:** Nezávislé hudební labely, ziny a mikro-značky záměrně používají hrubou grafiku s přiznanou texturou papíru, nerovným tiskem a nepravidelnými liniemi. Je to pro ně jasná značka autentického původu. 
 
 ## Hlubší napětí: Lidské oko podvědomě vyhledává chybu
 

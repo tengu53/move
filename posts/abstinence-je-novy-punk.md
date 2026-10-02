@@ -19,7 +19,7 @@ Vítejte v éře The Neo-Sober Edge – subkultury, která mění pravidla hry.
 
 ## Proč je kocovina moc drahý luxus?
 
-Mladší generace (Gen Z a mileniálové) se dívají na funkční alkoholismus svých rodičů a říkají jasné: „Tohle nechceme.“ Žijeme v době, která vyžaduje neustálý výkon a emoční stabilitu. V takovém světě je víkendová kocovina vnímána jako příliš drahá daň, která vám bez milosti sebere dva dny života. Pro naši generaci jsou už tyto počty ještě víc signifikantní - jeden pořádný večírek znamená týden rozhozeného spánku a nižší životní energie.
+Mladší generace (Gen Z a mileniálové) se dívají na funkční alkoholismus svých rodičů a říkají jasné: „Tohle nechceme.“ Víkendová kocovina a postkalkoholická psychóza je vnímána jako příliš drahá daň, která vám bez milosti sebere dva dny života. Pro naši generaci jsou už tyto počty ještě víc signifikantní - jeden pořádný večírek znamená týden rozhozeného spánku a nižší životní energie.
 
 Alkohol jako defaultní tmel společnosti zkrátka ztrácí svůj lesk. Nahrazuje ho touha po čisté hlavě, biohackingu a stoprocentní kontrole nad vlastním životem.
 

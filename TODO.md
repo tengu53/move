@@ -32,6 +32,7 @@ Pracovni plan pro novy staticky web ve slozce `public`, generovany z Markdown so
 
 ## Technicke doplneni
 
+- [x] Přidat výpis výsledku generování. 
 - [x] Pridat generovani RSS feedu bez Huga.
 - [x] Pridat `sitemap.xml` misto soucasneho jednoducheho `sitemap.txt`.
 - [x] Pridat `robots.txt`.
@@ -57,6 +58,10 @@ Pracovni plan pro novy staticky web ve slozce `public`, generovany z Markdown so
 - [ ] Zalozit README s popisem, jak web generovat a publikovat.
 
 ## Hotovo
+
+- [x] Doplněn úvodní obrázek `deep.jpg` k článku o Deep Adaptation včetně alternativního textu.
+
+- [x] Připraven článek o Deep Adaptation (1. 10. 2026): metadata, perex, tagy, drobná korektura a ověření buildu i odkazů.
 
 - [x] Vygenerovan zakladni staticky web do `public`.
 - [x] Pouzit Water CSS pres CDN.

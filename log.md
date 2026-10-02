@@ -26,3 +26,11 @@
 ## 2026-08-07
 
 - Prevedena deklarace obrazku ve frontmatteru z `cover.image` na top-level `image`, vcetne `image_alt` a `image_caption`; upraven generator, inbox helper, konfigurace Front Matter CMS a projektova dokumentace. Overeno pres `node build-web.mjs --check-links`.
+
+## 2026-10-01
+
+- K článku o Deep Adaptation doplněn úvodní obrázek `/images/deep.jpg` a popisný alternativní text. Ověřeno vložení do stránky a Open Graph metadat, build i kontrola místních odkazů prošly.
+
+- Připraven `posts/2026-10-01-deep-adaptation.md` pro web: doplněn frontmatter s názvem, datem, autorem, perexem, kategorií `lifespan` a tagy. Název souboru a URL zůstaly zachovány.
+- Opravena interpunkce, velká písmena, zdvojené mezery a formátování úvodního odstavce. Nadpis přesunut do metadat, aby se na stránce neopakoval. Autorský styl a obsah zachovány.
+- Ověřeno pomocí `node build-web.mjs --check-links`: 120 HTML stránek bez rozbitých místních odkazů. Zkontrolována metadata a zařazení článku na homepage, v RSS a sitemapě. Vizuální kontrola v prohlížeči nebyla dostupná, kontrola proběhla nad vygenerovaným HTML. Změny jsou pouze lokální, bez nasazení na web.
